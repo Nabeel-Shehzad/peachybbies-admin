@@ -1,0 +1,12 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.24",
+      "ext-mysqli": "*",
+      "ext-json": "*"
+    },
+  "config": {
+    "platform": {
+      "php": "8.0.0"
+    }
+  }
+}
