@@ -48,7 +48,7 @@ if (!isset($_SESSION['username'])) {
             <div class="form-group col-md-4">
                 <input id="startDatePicker" name="start_Date"/>
             </div>
-        </div>s
+        </div>
         <div class="row justify-content-center">
             <div class="col-4 col-md-4">
                 <p>End Date</p>
@@ -68,6 +68,7 @@ if (!isset($_SESSION['username'])) {
         $username = $_POST['user'];
         $startDate = $_POST['start_Date'];
         $endDate = $_POST['end_Date'];
+
         if($startDate > $endDate) {
             echo "<div class='row text-center mt-5'>
                     <div class='col-12 col-md-12 col-sm-12'>
@@ -78,18 +79,23 @@ if (!isset($_SESSION['username'])) {
                     </div>
                 </div>";
         }else {
-            $sql = "SELECT username, (SUM(actual_quota) / SUM(HOUR(TIMEDIFF(TIME(end_time), TIME(start_time))))) AS Average
-                    FROM data 
-                    WHERE username = '$username'
-                    GROUP BY username;";
+            $sql = "SELECT username, SUM(TIME_TO_SEC(bathroom_break)+ TIME_TO_SEC(general_break) +
+                        TIME_TO_SEC(meal_break)+ TIME_TO_SEC(shelving_break) +
+                        TIME_TO_SEC(other_break)) / DATEDIFF('$endDate','$startDate') 
+                        as time FROM `data` 
+                        WHERE username='$username' AND 
+                        date BETWEEN '$startDate' AND '$endDate'";
             $result = $conn->query($sql);
+
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
                     echo "<div class='row text-center mt-5'>
                             <div class='col-12 col-md-12'>
-                                <h3> <span class='text-danger'>" . $row['username'] . "</span> 
-                                    Pack <span class='text-danger'> " . ROUND($row['Average']) . "</span> 
-                                    Slimes per hour by Texture </h3>
+                                <h3> <span class='text-danger'>" . $username. "</span> 
+                                    's Average brak time is 
+                                      <span class='text-danger'>
+                                      " . gmdate('H:i:s',ROUND($row['time'])) . "
+                                      </span> per day</h3>
                             </div>
                       </div>";
                 }
@@ -104,10 +110,12 @@ if (!isset($_SESSION['username'])) {
 
 <script>
     $('#startDatePicker').datepicker({
-        uiLibrary: 'bootstrap4'
+        uiLibrary: 'bootstrap4',
+        format: "yyyy-mm-dd"
     });
     $('#endDatePicker').datepicker({
-        uiLibrary: 'bootstrap4'
+        uiLibrary: 'bootstrap4',
+        format: "yyyy-mm-dd"
     });
 </script>
 <?php include('../js/links.php') ?>

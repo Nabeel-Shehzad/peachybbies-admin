@@ -47,30 +47,63 @@ if (!isset($_SESSION['username'])) {
             </div>
         </div>
     </form>
-    <?php
-    if (isset($_POST['submit'])) {
-        $username = $_POST['user'];
-        $sql = "SELECT username, (SUM(actual_quota) / SUM(HOUR(TIMEDIFF(TIME(end_time), TIME(start_time))))) AS Average
-                    FROM data 
-                    WHERE username = '$username'
-                    GROUP BY username;";
-        $result = $conn->query($sql);
-        if ($result->num_rows > 0) {
-            while ($row = $result->fetch_assoc()) {
-                echo "<div class='row text-center mt-5'>
-                            <div class='col-12 col-md-12'>
-                                <h3> <span class='text-danger'>". $row['username'] ."</span> 
-                                    Pack <span class='text-danger'> ". ROUND($row['Average']) ."</span> Slimes per hour by SKU </h3>
-                            </div>
-                      </div>";
-            }
-        }
-    }
+    <div class="container-fluid mt-5">
+        <!-- set content in center -->
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-sm-12">
+                <table id="employee_data" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>SKU</th>
+                        <th>Average</th>
+                    </tr>
+                    </thead>
+                    <tbody>
 
-    ?>
+                    <?php require '../connection.php' ?>
+
+                    <?php
+                    if (isset($_POST['submit'])) {
+                        $username = $_POST['user'];
+                        $sql = "SELECT username,sku_packed, (SUM(actual_quota) / SUM(HOUR(TIMEDIFF(TIME(end_time), TIME(start_time))))) AS Average
+                                FROM data 
+                                WHERE username = '$username'
+                                GROUP BY sku_packed;";
+                        $result = $conn->query($sql);
+                        if ($result->num_rows > 0) {
+                            while ($row = $result->fetch_assoc()) {
+                                ?>
+                                <tr>
+                                    <td><?php echo $row["username"] ?></td>
+                                    <td><?php echo $row["sku_packed"] ?></td>
+                                    <td><?php echo ROUND($row["Average"]) ?></td>
+                                </tr>
+                                <?php
+                            }
+                        }
+                    } ?>
+
+                    <?php $conn->close(); ?>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <th>Username</th>
+                        <th>SKU</th>
+                        <th>Average</th>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
 
-
+<script>
+    $(document).ready(function () {
+        $('#employee_data').DataTable();
+    });
+</script>
 <?php include('../js/links.php') ?>
 
 </body>
