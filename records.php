@@ -46,7 +46,13 @@ if (!isset($_SESSION['username'])){
                     <tbody>
                     <?php require 'connection.php' ?>
                     <?php
-                        $sql = "SELECT * FROM `data`";
+                        $sql = "SELECT employee.first_name,employee.last_name,slime.slime_name,slime.slime_texture, data.* FROM `data` 
+                                JOIN employee
+                                ON 
+                                employee.id = data.username
+                                JOIN slime 
+                                ON 
+                                slime.id = data.sku_packed";
                         $result = $conn->query($sql);
 
                         if ($result->num_rows > 0) {
@@ -54,7 +60,7 @@ if (!isset($_SESSION['username'])){
                                 ?>
                                     <tr>
                                         <td><?php echo $row["id"] ?></td>
-                                        <td><?php echo $row["username"] ?></td>
+                                        <td><?php echo $row["first_name"] ." ". $row["last_name"] ?></td>
                                         <td><?php echo $row["date"] ?></td>
                                         <td><?php echo $row["start_time"] ?></td>
                                         <td><?php echo $row["end_time"] ?></td>
@@ -67,7 +73,7 @@ if (!isset($_SESSION['username'])){
                                         <td><?php echo $row["other_break"] ?></td>
                                         <td><?php echo $row["target_quota"] ?></td>
                                         <td><?php echo $row["actual_quota"] ?></td>
-                                        <td><?php echo $row["sku_packed"] ?></td>
+                                        <td><?php echo $row["slime_name"] ." ". $row["slime_texture"] ?></td>
                                         <td>
                                             <a class="btn btn-danger btn-sm" href="delete.php?id=<?php echo $row['id'] ?>">Delete Records</a>
                                         </td>
@@ -117,10 +123,11 @@ if (!isset($_SESSION['username'])){
             for(let i = 0; i < table.rows('.selected').data().length; i++){
                 for (let j = 0; j < 1; j++){
                     ids.push(table.rows('.selected').data()[i][j]);
+                    console.log(table.rows('.selected').data()[i][j]);
                 }
             }
-            var page = "export.php?ids=" + ids;
-            window.location.href = page;
+            // var page = "export.php?ids=" + ids;
+            // window.location.href = page;
         });
     });
 

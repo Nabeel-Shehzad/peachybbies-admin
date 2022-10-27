@@ -9,7 +9,10 @@ include_once("connection.php");
 
 $id = $_GET['id'];
 
-$sql = mysqli_query($conn,"SELECT * FROM `data` WHERE username LIKE '$id'");
+$sql = mysqli_query($conn,"SELECT employee.first_name,employee.last_name,
+       slime.slime_name,slime.slime_texture, data.* FROM `data` JOIN employee ON employee.id = data.username
+        JOIN slime ON slime.id = data.sku_packed
+        WHERE username LIKE '$id'");
 
 // Excel file name for download 
 $fileName = "peachybbies_export_data-" . $id . "-" . date('Ymd') . ".xlsx";
@@ -29,7 +32,7 @@ while ($row = mysqli_fetch_assoc($sql)) {
     $sheet->setCellValue('A2', 'Packing Report');
 
     $sheet->setCellValue('A4', 'Username');
-    $sheet->setCellValue('B4', $row['username']);
+    $sheet->setCellValue('B4', $row['first_name'] ." ". $row['last_name']);
 
     $sheet->setCellValue('A5', 'Start Time');
     $sheet->setCellValue('B5', $row['start_time']);
@@ -66,7 +69,7 @@ while ($row = mysqli_fetch_assoc($sql)) {
 
 
     $sheet->setCellValue('A16', 'SKU Packed');
-    $sheet->setCellValue('B16', $row['sku_packed']);
+    $sheet->setCellValue('B16', $row['slime_name'] ." ". $row['slime_texture']);
 
     foreach ($sheet->getColumnIterator() as $column) {
         $sheet->getColumnDimension($column->getColumnIndex())->setAutoSize(true);

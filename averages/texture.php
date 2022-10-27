@@ -3,7 +3,7 @@ session_start();
 ob_start();
 include('../connection.php');
 if (!isset($_SESSION['username'])) {
-    header("Location: index.php");
+    header("Location: ../index.php");
 }
 ?>
 <!doctype html>
@@ -55,7 +55,7 @@ if (!isset($_SESSION['username'])) {
                     <thead>
                     <tr>
                         <th>Username</th>
-                        <th>SKU</th>
+                        <th>Texture</th>
                         <th>Average</th>
                     </tr>
                     </thead>
@@ -66,17 +66,19 @@ if (!isset($_SESSION['username'])) {
                     <?php
                     if (isset($_POST['submit'])) {
                         $username = $_POST['user'];
-                        $sql = "SELECT username,sku_packed, (SUM(actual_quota) / SUM(HOUR(TIMEDIFF(TIME(end_time), TIME(start_time))))) AS Average
+                        $sql = "SELECT employee.first_name,employee.last_name,slime.slime_texture, (SUM(actual_quota) / SUM(HOUR(TIMEDIFF(TIME(end_time), TIME(start_time))))) AS Average
                                 FROM data 
-                                WHERE username = '$username'
-                                GROUP BY sku_packed;";
+                                JOIN employee ON employee.id = data.username 
+                                JOIN slime On slime.id = data.sku_packed 
+                                WHERE '$username' = employee.first_name
+                                GROUP BY slime.slime_texture";
                         $result = $conn->query($sql);
                         if ($result->num_rows > 0) {
                             while ($row = $result->fetch_assoc()) {
                                 ?>
                                 <tr>
-                                    <td><?php echo $row["username"] ?></td>
-                                    <td><?php echo $row["sku_packed"] ?></td>
+                                    <td><?php echo $row["first_name"] ." ". $row["last_name"] ?></td>
+                                    <td><?php echo $row["slime_texture"] ?></td>
                                     <td><?php echo ROUND($row["Average"]) ?></td>
                                 </tr>
                                 <?php
@@ -89,7 +91,7 @@ if (!isset($_SESSION['username'])) {
                     <tfoot>
                     <tr>
                         <th>Username</th>
-                        <th>SKU</th>
+                        <th>Texture</th>
                         <th>Average</th>
                     </tr>
                     </tfoot>

@@ -19,7 +19,10 @@ $index = 1;
 
 //print list
 foreach ($list as $id) {
-    $sql = mysqli_query($conn, "SELECT * FROM `data` WHERE id = '$id'");
+    $sql = mysqli_query($conn, "SELECT employee.first_name,employee.last_name,
+       slime.slime_name,slime.slime_texture, data.* FROM `data` JOIN employee ON employee.id = data.username
+        JOIN slime ON slime.id = data.sku_packed
+        WHERE data.id = '$id'");
     while ($row = mysqli_fetch_assoc($sql)) {
         $sheet->setCellValue('A1', 'Date');
         $sheet->setCellValue('B1', $row['date']);
@@ -27,7 +30,7 @@ foreach ($list as $id) {
         $sheet->setCellValue('A2', 'Packing Report');
 
         $sheet->setCellValue('A4', 'Username');
-        $sheet->setCellValue('B4', $row['username']);
+        $sheet->setCellValue('B4', $row['first_name'] . " " . $row['last_name']);
 
         $sheet->setCellValue('A5', 'Start Time');
         $sheet->setCellValue('B5', $row['start_time']);
@@ -64,7 +67,7 @@ foreach ($list as $id) {
 
 
         $sheet->setCellValue('A16', 'SKU Packed');
-        $sheet->setCellValue('B16', $row['sku_packed']);
+        $sheet->setCellValue('B16', $row['slime_name'] . " " . $row['slime_texture']);
 
         foreach ($sheet->getColumnIterator() as $column) {
             $sheet->getColumnDimension($column->getColumnIndex())->setAutoSize(true);

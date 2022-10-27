@@ -43,7 +43,14 @@
                     <?php require 'connection.php' ?>
 
                     <?php
-                        $sql = "SELECT * FROM `data` GROUP BY `username`";
+                        $sql = "SELECT employee.first_name,employee.last_name,slime.slime_name,slime.slime_texture, data.* FROM `data` 
+                                JOIN employee
+                                    ON 
+                                    employee.id = data.username
+                                JOIN slime 
+                                    ON 
+                                    slime.id = data.sku_packed
+                                GROUP BY data.username";
                         $result = $conn->query($sql);
 
                         if ($result->num_rows > 0) {
@@ -53,7 +60,7 @@
 
                                     <tr>
                                         <td><?php echo $row["id"] ?></td>
-                                        <td><?php echo $row["username"] ?></td>
+                                        <td><?php echo $row["first_name"] ." ". $row["last_name"] ?></td>
                                         <td><?php echo $row["date"] ?></td>
                                         <td><?php echo $row["start_time"] ?></td>
                                         <td><?php echo $row["end_time"] ?></td>
@@ -66,7 +73,7 @@
                                         <td><?php echo $row["other_break"] ?></td>
                                         <td><?php echo $row["target_quota"] ?></td>
                                         <td><?php echo $row["actual_quota"] ?></td>
-                                        <td><?php echo $row["sku_packed"] ?></td>
+                                        <td><?php echo $row["slime_name"] ." ". $row["slime_texture"] ?></td>
                                         <td>
                                             <a class="btn btn-primary btn-sm" href="generate_excel.php?id=<?php echo $row['username'] ?>">Export As CSV</a>
                                         </td>

@@ -3,7 +3,7 @@ session_start();
 ob_start();
 include('../connection.php');
 if (!isset($_SESSION['username'])) {
-    header("Location: index.php");
+    header("Location: ../index.php");
 }
 ?>
 <!doctype html>
