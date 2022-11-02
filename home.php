@@ -15,9 +15,9 @@
   <?php include ('navbar.php')?>
     <div class="container-fluid mt-5">
         <!-- set content in center -->
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <table id="employee_data" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <table id="employee_data" class="table table-responsive table-striped table-bordered" cellspacing="0">
                     <thead>
                         <tr>
                             <th>ID</th>

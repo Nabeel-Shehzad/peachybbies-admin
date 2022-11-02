@@ -30,7 +30,7 @@ if (!isset($_SESSION['username'])) {
                     <option selected>Choose...</option>
                     <?php
                     include('../connection.php');
-                    $sql = "SELECT * FROM employee";
+                    $sql = "SELECT * FROM employee WHERE status = 0";
                     $result = $conn->query($sql);
                     if ($result->num_rows > 0) {
                         while ($row = $result->fetch_assoc()) {
@@ -57,6 +57,21 @@ if (!isset($_SESSION['username'])) {
                 <input id="endDatePicker" name="end_Date"/>
             </div>
         </div>
+        <div class="row justify-content-center">
+            <div class="col-4 col-md-4">
+                <p>Select Break</p>
+            </div>
+            <div class="form-group col-md-4">
+                <select id="inputState" class="form-control" name="break">
+                    <option selected>Choose...</option>
+                    <option value="bathroom_break">Bathroom break</option>
+                    <option value=general_break"">General break</option>
+                    <option value="shelving_break">Shelving Products break</option>
+                    <option value="meal_break">Meal break</option>
+                    <option value="other_break">Other break</option>
+                </select>
+            </div>
+        </div>
         <div class="row text-center">
             <div class="col-12 col-md-12 col-sm-12">
                 <input type="submit" name="submit" value="Generate Average" class="col-md-4 btn btn-primary">
@@ -68,7 +83,7 @@ if (!isset($_SESSION['username'])) {
         $username = $_POST['user'];
         $startDate = $_POST['start_Date'];
         $endDate = $_POST['end_Date'];
-
+        $break = $_POST['break'];
         if($startDate > $endDate) {
             echo "<div class='row text-center mt-5'>
                     <div class='col-12 col-md-12 col-sm-12'>
@@ -79,26 +94,36 @@ if (!isset($_SESSION['username'])) {
                     </div>
                 </div>";
         }else {
-            $sql = "SELECT username, SUM(TIME_TO_SEC(bathroom_break)+ TIME_TO_SEC(general_break) +
-                        TIME_TO_SEC(meal_break)+ TIME_TO_SEC(shelving_break) +
-                        TIME_TO_SEC(other_break)) / DATEDIFF('$endDate','$startDate') 
-                        as time FROM `data` 
-                        WHERE username='$username' AND 
-                        date BETWEEN '$startDate' AND '$endDate'";
+            $sql = "SELECT employee.first_name,employee.last_name, 
+                    SUM(TIME_TO_SEC(bathroom_break)) / DATEDIFF('$endDate','$startDate') 
+                    as time 
+                    FROM `data` 
+                    JOIN employee ON employee.id = data.username
+                    WHERE '$username' = employee.first_name  AND 
+                    date BETWEEN '$startDate' AND '$endDate'";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
                     echo "<div class='row text-center mt-5'>
                             <div class='col-12 col-md-12'>
-                                <h3> <span class='text-danger'>" . $username. "</span> 
-                                    's Average brak time is 
+                                <h3> <span class='text-danger'>" . $row['first_name'] . " ".$row['last_name']. "</span> 
+                                    's Average break time is 
                                       <span class='text-danger'>
                                       " . gmdate('H:i:s',ROUND($row['time'])) . "
                                       </span> per day</h3>
                             </div>
                       </div>";
                 }
+            }else{
+                echo "<div class='row text-center mt-5'>
+                    <div class='col-12 col-md-12 col-sm-12'>
+                        <div class='alert alert-danger' role='alert'>
+                        <a href=''#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
+                            No Result
+                        </div>
+                    </div>
+                </div>";
             }
         }
     }

@@ -22,7 +22,7 @@ if (!isset($_SESSION['username'])){
                 </button>
             </div>
             <div class="col-12 col-md-12 col-sm-12">
-                <table id="employee_data" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <table id="employee_data" class="table table-responsive table-striped table-bordered" cellspacing="0" width="100%">
                     <thead>
                     <tr>
                         <th class="th-sm">ID</th>

@@ -73,7 +73,7 @@ if (isset($_GET['success'])) {
                 <?php require 'connection.php' ?>
 
                 <?php
-                $sql = "SELECT * FROM `employee`";
+                $sql = "SELECT * FROM `employee` where status = 0";
                 $result = $conn->query($sql);
 
                 if ($result->num_rows > 0) {

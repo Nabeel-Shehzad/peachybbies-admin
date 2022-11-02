@@ -28,7 +28,7 @@ if (!isset($_SESSION['username'])) {
                 <select id="inputState" class="form-control" name="user">
                     <option selected>Choose...</option>
                     <?php
-                    $sql = "SELECT * FROM employee";
+                    $sql = "SELECT * FROM employee WHERE status = 0";
                     $result = $conn->query($sql);
                     if ($result->num_rows > 0) {
                         while ($row = $result->fetch_assoc()) {
