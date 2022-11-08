@@ -91,22 +91,27 @@ if (!isset($_SESSION['username'])) {
                     $date = "";
                     $sql = "";
                     $username = $_POST['user'];
+                    $firstName = explode(" ",$username)[0];
                     if (!$_POST['check']) {
                         $date = date("Y-m-d", strtotime($_POST['date']));
-                        $sql = "SELECT * FROM data WHERE username = '$username'  AND date = '" . $date . "'";
+                        $sql = "SELECT employee.*, data.* FROM data
+                                JOIN employee ON employee.id = data.username
+                                WHERE employee.first_name = '$firstName'
+                                  AND date = '" . $date . "'";
                     } else {
-                        $sql = "SELECT * FROM data WHERE username = '$username'";
+                        $sql = "SELECT employee.*, data.* FROM data
+                                JOIN employee ON employee.id = data.username
+                                WHERE employee.first_name = '$firstName'";
                     }
                     $result = $conn->query($sql);
 
                     if ($result->num_rows > 0) {
-                        // output data of each row
                         while ($row = $result->fetch_assoc()) {
                             ?>
 
                             <tr>
                                 <td><?php echo $row["id"] ?></td>
-                                <td><?php echo $row["username"] ?></td>
+                                <td><?php echo $row["first_name"] . " ". $row["last_name"] ?></td>
                                 <td><?php echo $row["date"] ?></td>
                                 <td><?php echo $row["start_time"] ?></td>
                                 <td><?php echo $row["end_time"] ?></td>
