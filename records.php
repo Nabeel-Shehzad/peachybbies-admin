@@ -16,8 +16,8 @@ if (!isset($_SESSION['username'])){
     <?php include('navbar.php') ?>
     <div class="container-fluid mt-5">
         <div class="row">
-            <div class="col-12 col-md-12 offset-4 my-3">
-                <button type="button" id="button" class="btn btn-outline-primary col-3" >
+            <div class="col-12 col-md-12 my-3">
+                <button type="button" id="button" class="btn btn-outline-primary col-4 offset-4" >
                     Export Selected
                 </button>
             </div>
@@ -46,7 +46,8 @@ if (!isset($_SESSION['username'])){
                     <tbody>
                     <?php require 'connection.php' ?>
                     <?php
-                        $sql = "SELECT employee.first_name,employee.last_name,slime.slime_name,slime.slime_texture, data.* FROM `data` 
+                        $sql = "SELECT employee.first_name,
+                                    employee.last_name,slime.slime_name,slime.slime_texture, data.* FROM `data` 
                                 JOIN employee
                                 ON 
                                 employee.id = data.username
@@ -75,7 +76,7 @@ if (!isset($_SESSION['username'])){
                                         <td><?php echo $row["actual_quota"] ?></td>
                                         <td><?php echo $row["slime_name"] ." ". $row["slime_texture"] ?></td>
                                         <td>
-                                            <a class="btn btn-danger btn-sm" href="delete.php?id=<?php echo $row['id'] ?>">Delete Records</a>
+                                            <a class="btn btn-danger btn-sm" href="delete.php?id=<?php echo $row['id'] ?>">Delete Record</a>
                                         </td>
                                     </tr>
                                 <?php
@@ -123,11 +124,9 @@ if (!isset($_SESSION['username'])){
             for(let i = 0; i < table.rows('.selected').data().length; i++){
                 for (let j = 0; j < 1; j++){
                     ids.push(table.rows('.selected').data()[i][j]);
-                    console.log(table.rows('.selected').data()[i][j]);
                 }
             }
-            // var page = "export.php?ids=" + ids;
-            // window.location.href = page;
+            window.location.href = "export.php?ids=" + ids;
         });
     });
 
