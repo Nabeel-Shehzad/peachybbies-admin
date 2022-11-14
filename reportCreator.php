@@ -11,7 +11,7 @@ if (!isset($_SESSION['username'])) {
 <head>
     <?php include('header/header.php'); ?>
 </head>
-
+<body>
 <?php include('navbar.php') ?>
 <?php
 if (isset($_GET['error'])) {
@@ -32,10 +32,10 @@ if (isset($_GET['error'])) {
     </div>
     <form method="post" action="reportCreator.php">
         <div class="row justify-content-center">
-            <div class="col-4 col-md-4">
+            <div class="col-3 col-md-3">
                 <p>Choose user</p>
             </div>
-            <div class="form-group col-md-4">
+            <div class="form-group col-md-3">
                 <select id="inputState" class="form-control" name="user">
                     <option selected>Choose...</option>
                     <?php
@@ -53,10 +53,10 @@ if (isset($_GET['error'])) {
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-4 col-md-4">
+            <div class="col-3 col-md-3">
                 <p>Select Day</p>
             </div>
-            <div class="form-group col-md-4">
+            <div class="form-group col-md-3">
                 <input id="datepicker" name="date"/>
                 <input type="checkbox" class="form-check-input ml-1" name="check">
                 <label class="form-check-label ml-4">No Limit</label>
@@ -74,7 +74,7 @@ if (isset($_GET['error'])) {
     <!-- set content in center -->
     <div class="row">
         <div class="col-12 col-md-12">
-            <table id="employee_data" class="table table-striped table-bordered" cellspacing="0" width="100%">
+            <table id="employee_data" class="table table-responsive table-bordered" cellspacing="0" width="100%">
                 <thead>
                 <tr>
                     <th>ID</th>
@@ -155,7 +155,7 @@ if (isset($_GET['error'])) {
                                        href="forms/deleteReport.php?id=<?php echo $row['id'] ?>">Delete Record</a>
                                 </td>
                                 <td>
-                                    <a class="btn btn-success btn-sm"
+                                    <a class="btn btn-primary btn-sm"
                                        href="export.php?ids=<?php echo $row['id'] ?>">Export Record</a>
                                 </td>
                             </tr>
@@ -201,4 +201,5 @@ if (isset($_GET['error'])) {
     });
 </script>
 <?php include('js/links.php') ?>
+</body>
 </html>

@@ -14,6 +14,24 @@ if (!isset($_SESSION['username'])){
 </head>
 <body>
     <?php include('navbar.php') ?>
+    <?php
+    if (isset($_GET['success'])) {
+        if ($_GET['success'] == 1) {
+            echo "<div class='alert alert-success' role='alert'>
+                <a href=''#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
+                Record Updated Successfully!
+                </div>";
+        }
+    }
+    else if (isset($_GET['error'])) {
+        if ($_GET['error'] == 1) {
+            echo "<div class='alert alert-danger' role='alert'>
+                <a href=''#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
+                Something went wrong try again later.
+                </div>";
+        }
+    }
+    ?>
     <div class="container-fluid mt-5">
         <div class="row">
             <div class="col-12 col-md-12 my-3">
@@ -41,6 +59,7 @@ if (!isset($_SESSION['username'])){
                         <th class="th-sm">Actual Packed</th>
                         <th class="th-sm">SKU Packed</th>
                         <th class="th-sm">Action</th>
+                        <th class="th-sm">Edit</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -78,6 +97,9 @@ if (!isset($_SESSION['username'])){
                                         <td>
                                             <a class="btn btn-danger btn-sm" href="delete.php?id=<?php echo $row['id'] ?>">Delete Record</a>
                                         </td>
+                                        <td>
+                                            <a class="btn btn-primary btn-sm" href="editRecord.php?id=<?php echo $row['id'] ?>">Edit Record</a>
+                                        </td>
                                     </tr>
                                 <?php
                             }
@@ -101,6 +123,7 @@ if (!isset($_SESSION['username'])){
                         <th>Actual Packed</th>
                         <th>SKU Packed</th>
                         <th>Action</th>
+                        <th>Edit</th>
                     </tr>
                     </tfoot>
                 </table>
@@ -132,3 +155,5 @@ if (!isset($_SESSION['username'])){
 
 </script>
 </body>
+
+</html>
