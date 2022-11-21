@@ -52,8 +52,9 @@ if (!isset($_SESSION['username'])){
                         <th class="th-sm">Target Working Time</th>
                         <th class="th-sm">bathroom Pause</th>
                         <th class="th-sm">General Break Pause</th>
-                        <th class="th-sm">Shelving Product Pause</th>
                         <th class="th-sm">Meal Pause</th>
+                        <th class="th-sm">Social Media Pause</th>
+                        <th class="th-sm">Mock ups Pause</th>
                         <th class="th-sm">Other Task Pause</th>
                         <th class="th-sm">Target Quota</th>
                         <th class="th-sm">Actual Packed</th>
@@ -90,6 +91,7 @@ if (!isset($_SESSION['username'])){
                                         <td><?php echo $row["general_break"] ?></td>
                                         <td><?php echo $row["meal_break"] ?></td>
                                         <td><?php echo $row["shelving_break"] ?></td>
+                                        <td><?php echo $row["mockups"] ?></td>
                                         <td><?php echo $row["other_break"] ?></td>
                                         <td><?php echo $row["target_quota"] ?></td>
                                         <td><?php echo $row["actual_quota"] ?></td>
@@ -116,8 +118,9 @@ if (!isset($_SESSION['username'])){
                         <th>Target Working Time</th>
                         <th>Bathroom Pause</th>
                         <th>General Break Pause</th>
+                        <th class="th-sm">Meal Pause</th>
                         <th>Shelving Product Pause</th>
-                        <th>Meal Pause</th>
+                        <th>Mock ups Pause</th>
                         <th>Other Task Pause</th>
                         <th>Target Quota</th>
                         <th>Actual Packed</th>

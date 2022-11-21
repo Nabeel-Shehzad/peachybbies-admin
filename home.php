@@ -29,8 +29,9 @@
                             <th>Target Working Time</th>
                             <th>Bathroom Pause</th>
                             <th>General Break Pause</th>
-                            <th>Shelving Product Pause</th>
                             <th>Meal Pause</th>
+                            <th>Social Media Pause</th>
+                            <th>Mock ups Pause</th>
                             <th>Other Task Pause</th>
                             <th>Target Quota</th>
                             <th>Actual Packed</th>
@@ -70,6 +71,7 @@
                                         <td><?php echo $row["general_break"] ?></td>
                                         <td><?php echo $row["meal_break"] ?></td>
                                         <td><?php echo $row["shelving_break"] ?></td>
+                                        <td><?php echo $row["mockups"] ?></td>
                                         <td><?php echo $row["other_break"] ?></td>
                                         <td><?php echo $row["target_quota"] ?></td>
                                         <td><?php echo $row["actual_quota"] ?></td>
@@ -95,8 +97,9 @@
                         <th>Target Working Time</th>
                         <th>Bathroom Pause</th>
                         <th>General Break Pause</th>
-                        <th>Shelving Product Pause</th>
                         <th>Meal Pause</th>
+                        <th>Social Media Pause</th>
+                        <th>Mock ups Pause</th>
                         <th>Other Task Pause</th>
                         <th>Target Quota</th>
                         <th>Actual Packed</th>

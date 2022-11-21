@@ -66,7 +66,8 @@ if (!isset($_SESSION['username'])) {
                     <option selected>Choose...</option>
                     <option value="bathroom_break">Bathroom break</option>
                     <option value=general_break"">General break</option>
-                    <option value="shelving_break">Shelving Products break</option>
+                    <option value="shelving_break">Social Media break</option>
+                    <option value="mockups">Mock ups break</option>
                     <option value="meal_break">Meal break</option>
                     <option value="other_break">Other break</option>
                 </select>
@@ -95,7 +96,7 @@ if (!isset($_SESSION['username'])) {
                 </div>";
         }else {
             $sql = "SELECT employee.first_name,employee.last_name, 
-                    SUM(TIME_TO_SEC(bathroom_break)) / DATEDIFF('$endDate','$startDate') 
+                    SUM(TIME_TO_SEC('$break')) / DATEDIFF('$endDate','$startDate') 
                     as time 
                     FROM `data` 
                     JOIN employee ON employee.id = data.username

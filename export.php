@@ -50,24 +50,27 @@ foreach ($list as $id) {
         $sheet->setCellValue('A10', 'General Break Pause');
         $sheet->setCellValue('B10', $row['general_break']);
 
-        $sheet->setCellValue('A11', 'Shelving Product Pause');
+        $sheet->setCellValue('A11', 'Social media Pause');
         $sheet->setCellValue('B11', $row['shelving_break']);
 
-        $sheet->setCellValue('A12', 'Meal Pause');
-        $sheet->setCellValue('B12', $row['meal_break']);
+        $sheet->setCellValue('A12', 'Mock Ups Pause');
+        $sheet->setCellValue('B12', $row['mockups']);
 
-        $sheet->setCellValue('A13', 'Other Task Pause');
-        $sheet->setCellValue('B13', $row['other_break']);
+        $sheet->setCellValue('A13', 'Meal Pause');
+        $sheet->setCellValue('B13', $row['meal_break']);
 
-        $sheet->setCellValue('A14', 'Target Quota');
-        $sheet->setCellValue('B14', $row['target_quota']);
+        $sheet->setCellValue('A14', 'Other Task Pause');
+        $sheet->setCellValue('B14', $row['other_break']);
 
-        $sheet->setCellValue('A15', 'Actual Packed');
-        $sheet->setCellValue('B15', $row['actual_quota']);
+        $sheet->setCellValue('A15', 'Target Quota');
+        $sheet->setCellValue('B15', $row['target_quota']);
+
+        $sheet->setCellValue('A16', 'Actual Packed');
+        $sheet->setCellValue('B16', $row['actual_quota']);
 
 
-        $sheet->setCellValue('A16', 'SKU Packed');
-        $sheet->setCellValue('B16', $row['slime_name'] . " " . $row['slime_texture']);
+        $sheet->setCellValue('A17', 'SKU Packed');
+        $sheet->setCellValue('B17', $row['slime_name'] . " " . $row['slime_texture']);
 
         foreach ($sheet->getColumnIterator() as $column) {
             $sheet->getColumnDimension($column->getColumnIndex())->setAutoSize(true);
