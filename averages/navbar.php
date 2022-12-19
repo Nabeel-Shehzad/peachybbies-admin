@@ -15,6 +15,11 @@
         </div>
         <div class="row mr-0">
             <div class="col-12">
+                <a href="../addBreak.php" class="btn btn-outline-primary d-none d-lg-block">Add Breaks</a>
+            </div>
+        </div>
+        <div class="row mr-0">
+            <div class="col-12">
                 <a href="../records.php" class="btn btn-outline-primary d-none d-lg-block">All Records</a>
             </div>
         </div>
