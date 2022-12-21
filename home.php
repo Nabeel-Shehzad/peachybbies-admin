@@ -27,15 +27,10 @@
                             <th>End Time</th>
                             <th>Total Working Time</th>
                             <th>Target Working Time</th>
-                            <th>Bathroom Pause</th>
-                            <th>General Break Pause</th>
-                            <th>Meal Pause</th>
-                            <th>Social Media Pause</th>
-                            <th>Mock ups Pause</th>
-                            <th>Other Task Pause</th>
                             <th>Target Quota</th>
                             <th>Actual Packed</th>
                             <th>SKU Packed</th>
+                            <th>Breaks</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -67,15 +62,13 @@
                                         <td><?php echo $row["end_time"] ?></td>
                                         <td><?php echo $row["total_working_time"] ?></td>
                                         <td><?php echo $row["target_working_time"] ?></td>
-                                        <td><?php echo $row["bathroom_break"] ?></td>
-                                        <td><?php echo $row["general_break"] ?></td>
-                                        <td><?php echo $row["meal_break"] ?></td>
-                                        <td><?php echo $row["shelving_break"] ?></td>
-                                        <td><?php echo $row["mockups"] ?></td>
-                                        <td><?php echo $row["other_break"] ?></td>
                                         <td><?php echo $row["target_quota"] ?></td>
                                         <td><?php echo $row["actual_quota"] ?></td>
                                         <td><?php echo $row["slime_name"] ." ". $row["slime_texture"] ?></td>
+                                        <td>
+                                            <a class="btn btn-success btn-sm"
+                                               href="breaks.php?id=<?php echo $row["username"] ?>">Check Break</a>
+                                        </td>
                                         <td>
                                             <a class="btn btn-primary btn-sm" href="generate_excel.php?id=<?php echo $row['username'] ?>">Export As CSV</a>
                                         </td>
@@ -95,15 +88,10 @@
                         <th>End Time</th>
                         <th>Total Working Time</th>
                         <th>Target Working Time</th>
-                        <th>Bathroom Pause</th>
-                        <th>General Break Pause</th>
-                        <th>Meal Pause</th>
-                        <th>Social Media Pause</th>
-                        <th>Mock ups Pause</th>
-                        <th>Other Task Pause</th>
                         <th>Target Quota</th>
                         <th>Actual Packed</th>
                         <th>SKU Packed</th>
+                        <th>Breaks</th>
                         <th>Action</th>
                     </tr>
                     </tfoot>

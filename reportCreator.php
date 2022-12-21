@@ -84,15 +84,10 @@ if (isset($_GET['error'])) {
                     <th>End Time</th>
                     <th>Total Working Time</th>
                     <th>Target Working Time</th>
-                    <th>Bathroom Pause</th>
-                    <th>General Break Pause</th>
-                    <th>Meal Pause</th>
-                    <th>Social Media Pause</th>
-                    <th>Mock ups Pause</th>
-                    <th>Other Task Pause</th>
                     <th>Target Quota</th>
                     <th>Actual Packed</th>
                     <th>SKU Packed</th>
+                    <th>Breaks</th>
                     <th>Delete</th>
                     <th>Export</th>
                 </tr>
@@ -153,6 +148,10 @@ if (isset($_GET['error'])) {
                                 <td><?php echo $row["actual_quota"] ?></td>
                                 <td><?php echo $row["sku_packed"] ?></td>
                                 <td>
+                                    <a class="btn btn-success btn-sm"
+                                       href="breaks.php?id=<?php echo $row["username"] ?>">Check Break</a>
+                                </td>
+                                <td>
                                     <a class="btn btn-danger btn-sm"
                                        href="forms/deleteReport.php?id=<?php echo $row['id'] ?>">Delete Record</a>
                                 </td>
@@ -176,15 +175,10 @@ if (isset($_GET['error'])) {
                     <th>End Time</th>
                     <th>Total Working Time</th>
                     <th>Target Working Time</th>
-                    <th>Bathroom Pause</th>
-                    <th>General Break Pause</th>
-                    <th>Meal Pause</th>
-                    <th>Social Media Pause</th>
-                    <th>mock ups Pause</th>
-                    <th>Other Task Pause</th>
                     <th>Target Quota</th>
                     <th>Actual Packed</th>
                     <th>SKU Packed</th>
+                    <th>Breaks</th>
                     <th>Delete</th>
                     <th>Export</th>
                 </tr>

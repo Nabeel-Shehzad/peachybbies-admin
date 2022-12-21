@@ -64,12 +64,16 @@ if (!isset($_SESSION['username'])) {
             <div class="form-group col-md-4">
                 <select id="inputState" class="form-control" name="break">
                     <option selected>Choose...</option>
-                    <option value="bathroom_break">Bathroom break</option>
-                    <option value=general_break"">General break</option>
-                    <option value="shelving_break">Social Media break</option>
-                    <option value="mockups">Mock ups break</option>
-                    <option value="meal_break">Meal break</option>
-                    <option value="other_break">Other break</option>
+                    <?php
+                    include('../connection.php');
+                    $sql = "SELECT * FROM break WHERE status = 0";
+                    $result = $conn->query($sql);
+                    if ($result->num_rows > 0) {
+                        while ($row = $result->fetch_assoc()) {
+                            echo "<option value='" . $row['ud'] . "'>" . $row['name'] . "</option>";
+                        }
+                    }
+                    ?>
                 </select>
             </div>
         </div>

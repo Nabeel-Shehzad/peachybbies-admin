@@ -19,10 +19,14 @@ $index = 1;
 
 //print list
 foreach ($list as $id) {
-    $sql = mysqli_query($conn, "SELECT employee.first_name,employee.last_name,
-       slime.slime_name,slime.slime_texture, data.* FROM `data` JOIN employee ON employee.id = data.username
-        JOIN slime ON slime.id = data.sku_packed
-        WHERE data.id = '$id'");
+    $sql = mysqli_query($conn, "SELECT break.*, break_taken.*, employee.first_name,
+        employee.last_name, slime.slime_name,slime.slime_texture, data.* 
+        FROM `data` 
+            JOIN employee ON employee.id = data.username 
+            JOIN slime ON slime.id = data.sku_packed 
+            LEFT JOIN break_taken ON data.username = break_taken.employee_id 
+            LEFT JOIN break ON break_taken.break_id = break.id 
+            WHERE data.id = '$id';");
     while ($row = mysqli_fetch_assoc($sql)) {
         $sheet->setCellValue('A1', 'Date');
         $sheet->setCellValue('B1', $row['date']);
@@ -44,23 +48,8 @@ foreach ($list as $id) {
         $sheet->setCellValue('A8', 'Target Working Time');
         $sheet->setCellValue('B8', $row['target_working_time']);
 
-        $sheet->setCellValue('A9', 'Bathroom Pause');
-        $sheet->setCellValue('B9', $row['bathroom_break']);
-
-        $sheet->setCellValue('A10', 'General Break Pause');
-        $sheet->setCellValue('B10', $row['general_break']);
-
-        $sheet->setCellValue('A11', 'Social media Pause');
-        $sheet->setCellValue('B11', $row['shelving_break']);
-
-        $sheet->setCellValue('A12', 'Mock Ups Pause');
-        $sheet->setCellValue('B12', $row['mockups']);
-
-        $sheet->setCellValue('A13', 'Meal Pause');
-        $sheet->setCellValue('B13', $row['meal_break']);
-
-        $sheet->setCellValue('A14', 'Other Task Pause');
-        $sheet->setCellValue('B14', $row['other_break']);
+        $sheet->setCellValue('A9', $row['name'] . ' '. 'Pause');
+        $sheet->setCellValue('B9', $row['time']);
 
         $sheet->setCellValue('A15', 'Target Quota');
         $sheet->setCellValue('B15', $row['target_quota']);

@@ -50,15 +50,10 @@ if (!isset($_SESSION['username'])){
                         <th class="th-sm">End Time</th>
                         <th class="th-sm">Total Working Time</th>
                         <th class="th-sm">Target Working Time</th>
-                        <th class="th-sm">bathroom Pause</th>
-                        <th class="th-sm">General Break Pause</th>
-                        <th class="th-sm">Meal Pause</th>
-                        <th class="th-sm">Social Media Pause</th>
-                        <th class="th-sm">Mock ups Pause</th>
-                        <th class="th-sm">Other Task Pause</th>
                         <th class="th-sm">Target Quota</th>
                         <th class="th-sm">Actual Packed</th>
                         <th class="th-sm">SKU Packed</th>
+                        <th class="th-sm">Breaks</th>
                         <th class="th-sm">Action</th>
                         <th class="th-sm">Edit</th>
                     </tr>
@@ -87,15 +82,13 @@ if (!isset($_SESSION['username'])){
                                         <td><?php echo $row["end_time"] ?></td>
                                         <td><?php echo $row["total_working_time"] ?></td>
                                         <td><?php echo $row["target_working_time"] ?></td>
-                                        <td><?php echo $row["bathroom_break"] ?></td>
-                                        <td><?php echo $row["general_break"] ?></td>
-                                        <td><?php echo $row["meal_break"] ?></td>
-                                        <td><?php echo $row["shelving_break"] ?></td>
-                                        <td><?php echo $row["mockups"] ?></td>
-                                        <td><?php echo $row["other_break"] ?></td>
                                         <td><?php echo $row["target_quota"] ?></td>
                                         <td><?php echo $row["actual_quota"] ?></td>
                                         <td><?php echo $row["slime_name"] ." ". $row["slime_texture"] ?></td>
+                                        <td>
+                                            <a class="btn btn-success btn-sm"
+                                               href="breaks.php?id=<?php echo $row["username"] ?>">Check Break</a>
+                                        </td>
                                         <td>
                                             <a class="btn btn-danger btn-sm" href="delete.php?id=<?php echo $row['id'] ?>">Delete Record</a>
                                         </td>
@@ -116,15 +109,10 @@ if (!isset($_SESSION['username'])){
                         <th>End Time</th>
                         <th>Total Working Time</th>
                         <th>Target Working Time</th>
-                        <th>Bathroom Pause</th>
-                        <th>General Break Pause</th>
-                        <th class="th-sm">Meal Pause</th>
-                        <th>Shelving Product Pause</th>
-                        <th>Mock ups Pause</th>
-                        <th>Other Task Pause</th>
                         <th>Target Quota</th>
                         <th>Actual Packed</th>
                         <th>SKU Packed</th>
+                        <th>Breaks</th>
                         <th>Action</th>
                         <th>Edit</th>
                     </tr>
