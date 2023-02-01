@@ -25,10 +25,15 @@ if (isset($_GET['success'])) {
                 <a href=''#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
                 Slime Deleted!
                 </div>";
-    } else {
-        echo "<div class='alert alert-danger' role='alert'>
+    } else if ($_GET['success'] == 4) {
+        echo "<div class='alert alert-success' role='alert'>
                 <a href=''#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-                Failed to add slime!
+                Slime Updated
+                </div>";
+    } else{
+        echo "<div class='alert alert-success' role='alert'>
+                <a href=''#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
+                Something went wrong. Try again later.
                 </div>";
     }
 }
@@ -43,10 +48,13 @@ if (isset($_GET['success'])) {
         <div class="col-12 col-md-6 col-sm-12">
             <form method="post" action="forms/slime.php">
                 <input type="text" class="form-control" name="slimeName" placeholder="Slime Name"
-                       required="required" />
+                       required="required"/>
                 <br>
                 <input type="text" class="form-control" name="texture" placeholder="Slime Texture"
-                       required="required" />
+                       required="required"/>
+                <br>
+                <input type="number" class="form-control" name="multiplier" placeholder="Slime Multiplier"
+                       required="required"/>
                 <br>
                 <input class="btn btn-outline-primary form-control" name="submit" type="submit" value="Add Slime"/>
             </form>
@@ -63,6 +71,7 @@ if (isset($_GET['success'])) {
                     <th>ID</th>
                     <th>Slime Name</th>
                     <th>Slime Texture</th>
+                    <th>Slime Multiplier</th>
                     <th>Action</th>
                 </tr>
                 </thead>
@@ -76,15 +85,19 @@ if (isset($_GET['success'])) {
 
                 if ($result->num_rows > 0) {
                     // output data of each row
-                    while($row = $result->fetch_assoc()) {
+                    while ($row = $result->fetch_assoc()) {
                         ?>
 
                         <tr>
                             <td><?php echo $row["id"] ?></td>
                             <td><?php echo $row["slime_name"] ?></td>
                             <td><?php echo $row["slime_texture"] ?></td>
+                            <td><?php echo $row["multiplier"] ?></td>
                             <td>
-                                <a class="btn btn-danger btn-sm" href="forms/deleteSlime.php?id=<?php echo $row['id'] ?>">Delete</a>
+                                <a class="btn btn-danger btn-sm"
+                                   href="forms/deleteSlime.php?id=<?php echo $row['id'] ?>">Delete</a>
+                                <a class="btn btn-primary btn-sm"
+                                   href="averages/editSlime.php?id=<?php echo $row['id'] ?>">Edit</a>
                             </td>
                         </tr>
                         <?php
@@ -98,6 +111,7 @@ if (isset($_GET['success'])) {
                     <th>ID</th>
                     <th>Slime Name</th>
                     <th>Slime Texture</th>
+                    <th>Slime Multiplier</th>
                     <th>Action</th>
                 </tr>
                 </tfoot>

@@ -1,0 +1,457 @@
+first name,last name,slime name,slime texture,record ID,date,user id,start time,end time,total working time,target working time,target quota,actual quota,sku packed
+Sofia,Torres Navarro,Hawaiian Punch,Plop,338,04/11/2022,22,04/11/2022 11:09,04/11/2022 12:38,1:19:50,null,0,121,20
+Amber,Bosch,Labeling,All slime labeling,339,04/11/2022,28,04/11/2022 11:27,04/11/2022 13:04,0:35:11,null,0,143,38
+Chris,Myers,Banana Jellybean,2 Part Horizontal,302,03/11/2022,1,03/11/2022 10:19,03/11/2022 13:54,2:33:16,null,0,120,6
+Chris,Myers,Space Mushroom,2 Part Horizontal,303,03/11/2022,1,03/11/2022 11:09,03/11/2022 13:55,2:46:33,null,0,80,7
+Ryan,Moss,Banana Jellybean,2 Part Horizontal,308,03/11/2022,18,03/11/2022 13:59,03/11/2022 14:04,0:00:44,null,0,117,6
+Iesha,Millard,Pink Lemonda Fizz,2 Part Twist,309,03/11/2022,13,2022-11-0314:07:38,2022-11-0314:07:50,0:00:14,null,0,413,19
+Ryan,Moss,Labeling,All slime labeling,311,03/11/2022,18,03/11/2022 14:04,03/11/2022 14:20,0:16:16,null,0,117,38
+Ryan,Moss,Labeling,All slime labeling,337,04/11/2022,18,04/11/2022 11:43,04/11/2022 11:58,0:14:39,null,0,91,38
+Ryan,Moss,Baggies,All baggie actions,313,03/11/2022,18,03/11/2022 15:00,03/11/2022 15:22,0:22:24,null,0,150,37
+Eric,Tarket,Asteroid Crunch,Plop,314,03/11/2022,30,03/11/2022 15:48,03/11/2022 16:39,0:42:55,null,0,350,29
+Ryan,Moss,Banana Jellybean,2 Part Horizontal,315,03/11/2022,18,03/11/2022 16:01,03/11/2022 16:46,0:45:11,null,0,116,6
+Julie,Johnson,Space Mushroom,2 Part Horizontal,316,03/11/2022,14,03/11/2022 14:11,03/11/2022 16:50,2:29:37,null,0,111,7
+Dustin,Oliver,Aphrodites Love Spell Float,Icee Cloud,317,03/11/2022,9,03/11/2022 13:58,03/11/2022 16:51,1:44:38,null,0,299,9
+Sabrina,Stafin,Cows in Space,Cow,318,03/11/2022,19,03/11/2022 13:50,03/11/2022 16:55,3:00:45,null,0,386,16
+Sandra,Aguas,Emo Girl Jelly,Plop,319,03/11/2022,20,03/11/2022 14:11,03/11/2022 16:59,2:40:46,null,0,300,27
+Iesha,Millard,Chocolate Chip Cookie Dough,Plop,320,03/11/2022,13,03/11/2022 16:02,03/11/2022 17:10,1:07:52,null,0,120,35
+Ryan,Moss,Labeling,All slime labeling,321,03/11/2022,18,03/11/2022 16:59,03/11/2022 17:16,0:17:10,null,0,116,38
+Dustin,Oliver,Labeling,All slime labeling,322,03/11/2022,9,03/11/2022 16:52,03/11/2022 17:28,0:35:47,null,0,299,38
+Ana,Zuniga,De-Stress Dough,Plop,323,03/11/2022,5,03/11/2022 13:52,03/11/2022 17:28,3:30:29,null,0,800,11
+Eric,Tarket,Labeling,All slime labeling,324,03/11/2022,30,03/11/2022 16:48,03/11/2022 17:29,0:00:09,null,0,120,38
+Sandra,Aguas,Emo Girl Jelly,Plop,325,03/11/2022,20,03/11/2022 17:04,03/11/2022 17:30,0:20:24,null,0,300,27
+Sabrina,Stafin,Labeling,All slime labeling,326,03/11/2022,19,03/11/2022 16:57,03/11/2022 17:30,0:28:24,null,0,195,38
+Amber,Bosch,Dino Exhibit,Plop,334,04/11/2022,28,04/11/2022 9:13,04/11/2022 11:27,2:13:56,null,0,143,25
+Sofia,Torres Navarro,Labeling,All slime labeling,328,03/11/2022,22,03/11/2022 18:11,03/11/2022 18:42,0:31:28,null,0,221,38
+Ryan,Moss,Banana Jellybean,2 Part Horizontal,335,04/11/2022,18,04/11/2022 9:05,04/11/2022 11:38,2:12:04,null,0,91,6
+Iesha,Millard,Chocolate Chip Cookie Dough,Plop,331,04/11/2022,13,04/11/2022 9:05,04/11/2022 10:39,0:21:33,null,0,207,35
+Ana,Zuniga,Baggies,All baggie actions,332,04/11/2022,5,04/11/2022 9:10,04/11/2022 10:54,1:37:55,null,0,493,37
+Sabrina,Stafin,Cows in Space,Cow,336,04/11/2022,19,04/11/2022 9:04,04/11/2022 11:57,1:52:51,null,0,197,16
+Ana,Zuniga,Baggies,All baggie actions,340,04/11/2022,5,04/11/2022 11:17,04/11/2022 13:14,0:13:36,null,0,1027,37
+Sabrina,Stafin,Labeling,All slime labeling,341,04/11/2022,19,04/11/2022 11:58,04/11/2022 13:34,0:22:02,null,0,197,38
+Kyle,King,Witching Hour,Plop ,342,04/11/2022,15,04/11/2022 9:07,04/11/2022 14:09,3:42:31,null,0,283,31
+Sandra,Aguas,Lavender Sorbet,Plop,343,04/11/2022,20,04/11/2022 9:05,04/11/2022 14:15,4:00:31,null,0,301,32
+Sofia,Torres Navarro,De-Stress Dough,Plop,344,04/11/2022,22,04/11/2022 12:51,04/11/2022 14:29,1:31:13,null,0,214,11
+Kyle,King,Labeling,All slime labeling,345,04/11/2022,15,04/11/2022 14:24,04/11/2022 14:57,0:32:43,null,0,288,38
+Nettie,Markus,Fairy Dust Fizz,2 Part Twist,346,04/11/2022,26,04/11/2022 11:45,04/11/2022 15:13,1:53:55,null,0,232,30
+Sandra,Aguas,Lavender Sorbet,Plop,347,04/11/2022,20,04/11/2022 14:20,04/11/2022 15:21,0:54:17,null,0,301,32
+Sofia,Torres Navarro,Baggies,All baggie actions,348,04/11/2022,22,04/11/2022 14:32,04/11/2022 15:23,0:51:28,null,0,214,37
+Dustin,Oliver,Aphrodites Love Spell Float,Icee Cloud,349,04/11/2022,9,04/11/2022 8:52,04/11/2022 15:44,5:47:19,null,0,277,9
+Dustin,Oliver,Labeling,All slime labeling,350,04/11/2022,9,04/11/2022 15:45,04/11/2022 16:14,0:29:18,null,0,277,38
+Kyle,King,Honeycube Squish Jelly,Plop,351,04/11/2022,15,04/11/2022 15:22,04/11/2022 16:18,0:51:07,null,0,79,10
+Sandra,Aguas,Honeycube Squish Jelly,Plop,352,04/11/2022,20,04/11/2022 15:42,04/11/2022 16:30,0:47:54,null,0,43,10
+Nettie,Markus,Honeycube Squish Jelly,Plop,353,04/11/2022,26,04/11/2022 16:52,04/11/2022 16:54,0:02:06,null,0,104,10
+Asya,Arterberry,Test,Testing only,354,07/11/2022,7,07/11/2022 10:02,07/11/2022 10:03,0:00:38,null,0,500,41
+Asya,Arterberry,Whipped Vanilla Sugar,Plop ,355,07/11/2022,7,07/11/2022 15:11,07/11/2022 17:09,1:58:07,null,0,547,34
+Iesha,Millard,Packets,Packet creation,356,07/11/2022,13,07/11/2022 8:57,07/11/2022 17:28,7:20:43,null,0,0,40
+Tatiyana,Villareal,Lids,Labeling Lids,357,07/11/2022,23,07/11/2022 10:07,07/11/2022 17:28,6:07:13,null,0,6,39
+Hailey,Allen,Banana Jellybean,2 Part Horizontal,358,07/11/2022,12,07/11/2022 16:52,07/11/2022 21:19,3:20:58,null,0,180,6
+Julie,Johnson,Axolotl Sundea,2 Part Horizontal,359,07/11/2022,14,07/11/2022 11:19,07/11/2022 21:21,8:53:28,null,0,255,8
+Micah,Boyd,Dreamscape Cloud Frost,2 Part Twist,360,07/11/2022,16,07/11/2022 19:11,07/11/2022 21:29,2:17:23,null,0,126,22
+Erika,Roa,Lids,Labeling Lids,361,07/11/2022,11,07/11/2022 19:03,07/11/2022 21:29,2:26:10,null,0,2,39
+Iesha,Millard,Lids,Labeling Lids,362,08/11/2022,13,08/11/2022 9:06,08/11/2022 12:01,2:47:42,null,0,0,39
+Asya,Arterberry,Galaxy Boba DIY kit,Plop,363,08/11/2022,7,08/11/2022 9:22,08/11/2022 13:54,3:29:09,null,0,0,42
+Julie,Johnson,Axolotl Sundea,2 Part Horizontal,364,08/11/2022,14,08/11/2022 11:07,08/11/2022 13:54,2:37:14,null,0,0,8
+Christian,Hebenstreich,Test,Testing only,365,08/11/2022,8,08/11/2022 14:11,08/11/2022 14:11,0:00:17,null,0,41,41
+Asya,Arterberry,Galaxy Boba DIY kit,Plop,366,08/11/2022,7,08/11/2022 14:01,08/11/2022 14:47,0:45:49,null,0,500,42
+Asya,Arterberry,Galaxy Boba DIY kit,Plop,367,08/11/2022,7,08/11/2022 14:57,08/11/2022 16:22,1:24:52,null,0,500,42
+Dustin,Oliver,Iced Water,Plop + Toppings,368,08/11/2022,9,08/11/2022 15:09,08/11/2022 17:05,1:53:04,null,0,288,52
+Christian,Hebenstreich,Bubble Bath,Plop + Toppings,369,08/11/2022,8,08/11/2022 14:12,08/11/2022 17:06,2:48:27,null,0,300,49
+Iesha,Millard,DragonFruit Candy Crunch,2 Part Horizontal,370,08/11/2022,13,08/11/2022 14:06,08/11/2022 17:10,2:54:57,null,0,350,26
+Sabrina,Stafin,Moo-berry Ice cream,2 Part Twist,371,08/11/2022,19,08/11/2022 14:25,08/11/2022 17:20,2:00:29,null,0,146,46
+Sandra,Aguas,Froggy Boba,Icee Cloud,372,08/11/2022,20,08/11/2022 15:40,08/11/2022 17:28,1:48:04,null,0,154,13
+Sabrina,Stafin,Labeling,All slime labeling,373,08/11/2022,19,08/11/2022 17:20,08/11/2022 17:30,0:09:42,null,0,80,38
+Asya,Arterberry,Baggies,All baggie actions,374,08/11/2022,7,08/11/2022 16:26,08/11/2022 17:30,1:03:45,null,0,296,37
+Dustin,Oliver,Labeling,All slime labeling,375,08/11/2022,9,08/11/2022 17:30,08/11/2022 17:30,0:00:05,null,0,200,38
+Nettie,Markus,Banana Jellybean,2 Part Horizontal,376,08/11/2022,26,08/11/2022 14:03,08/11/2022 17:35,3:24:37,null,0,300,6
+Sofia,Torres Navarro,Blueberry Soda Clouds,Icee Cloud,377,08/11/2022,22,08/11/2022 14:08,08/11/2022 19:00,4:04:49,null,0,422,47
+Micah,Boyd,Dreamscape Cloud Frost,2 Part Twist,378,08/11/2022,16,08/11/2022 14:21,08/11/2022 21:24,5:55:16,null,0,222,22
+Julie,Johnson,Axolotl Sundea,2 Part Horizontal,379,08/11/2022,14,08/11/2022 14:02,08/11/2022 21:27,3:56:24,null,0,350,8
+Dustin,Oliver,Labeling,All slime labeling,380,09/11/2022,9,09/11/2022 8:45,09/11/2022 8:55,0:10:08,null,0,88,38
+Sabrina,Stafin,Labeling,All slime labeling,381,09/11/2022,19,09/11/2022 8:58,09/11/2022 9:06,0:08:07,null,0,66,38
+Iesha,Millard,Labeling,All slime labeling,382,09/11/2022,13,09/11/2022 8:57,09/11/2022 9:29,0:31:17,null,0,350,38
+Dustin,Oliver,Iced Water,Plop + Toppings,383,09/11/2022,9,09/11/2022 9:11,09/11/2022 9:29,0:18:18,null,0,18,52
+Sandra,Aguas,Froggy Boba,Icee Cloud,384,09/11/2022,20,09/11/2022 9:02,09/11/2022 9:33,0:30:38,null,0,154,13
+Asya,Arterberry,Baggies,All baggie actions,385,09/11/2022,7,09/11/2022 9:02,09/11/2022 9:33,0:30:46,null,0,4,37
+Dustin,Oliver,Labeling,All slime labeling,386,09/11/2022,9,09/11/2022 9:30,09/11/2022 9:44,0:14:10,null,0,0,38
+Christian,Hebenstreich,Bubble Bath,Plop + Toppings,387,09/11/2022,8,09/11/2022 8:58,09/11/2022 11:46,2:38:47,null,0,124,49
+Dustin,Oliver,Dino Exhibit,Plop,388,09/11/2022,9,09/11/2022 9:45,09/11/2022 11:53,1:59:11,null,0,207,25
+Sofia,Torres Navarro,Blueberry Soda Clouds,Icee Cloud,389,09/11/2022,22,09/11/2022 9:04,09/11/2022 11:56,2:31:01,null,0,102,47
+Sabrina,Stafin,Moo-berry Ice cream,2 Part Twist,390,09/11/2022,19,09/11/2022 9:56,09/11/2022 12:01,1:58:35,null,0,211,46
+Julie,Johnson,Labeling,All slime labeling,391,09/11/2022,14,09/11/2022 11:04,09/11/2022 12:52,1:38,null,0,605,38
+Iesha,Millard,DragonFruit Candy Crunch,2 Part Horizontal,392,09/11/2022,13,09/11/2022 9:29,09/11/2022 14:07,3:26:44,null,0,308,26
+Dustin,Oliver,Dino Exhibit,Plop,393,09/11/2022,9,09/11/2022 13:02,09/11/2022 14:31,1:25:31,null,0,129,25
+Asya,Arterberry,Chocolate Chip Cookie Dough,Plop,394,09/11/2022,7,09/11/2022 15:01,09/11/2022 15:02,0:01:29,null,0,300,35
+Iesha,Millard,Labeling,All slime labeling,395,09/11/2022,13,09/11/2022 14:08,09/11/2022 15:08,0:59:39,null,0,308,38
+Dustin,Oliver,Labeling,All slime labeling,396,09/11/2022,9,09/11/2022 14:35,09/11/2022 15:19,0:43:54,null,0,336,38
+Sandra,Aguas,Froggy Boba,Icee Cloud,397,09/11/2022,20,09/11/2022 10:36,09/11/2022 16:09,4:17:55,null,0,229,13
+Asya,Arterberry,Labeling,All slime labeling,398,09/11/2022,7,09/11/2022 15:05,09/11/2022 16:17,1:00,null,0,300,38
+Asya,Arterberry,Chocolate Chip Cookie Dough,Plop,399,09/11/2022,7,09/11/2022 16:17,09/11/2022 16:43,0:26:10,null,0,29,35
+Micah,Boyd,Dreamscape Cloud Frost,2 Part Twist,400,09/11/2022,16,09/11/2022 15:37,09/11/2022 16:49,1:12:05,null,0,255,22
+Asya,Arterberry,Labeling,All slime labeling,401,09/11/2022,7,09/11/2022 16:44,09/11/2022 16:50,0:06:24,null,0,29,38
+Hailey,Allen,Peachys poppin rocks GRAPE SODA,Plop + Toppings,402,09/11/2022,12,09/11/2022 13:16,09/11/2022 17:10,3:46,null,0,403,48
+Sabrina,Stafin,Moo-berry Ice cream,2 Part Twist,403,09/11/2022,19,09/11/2022 14:08,09/11/2022 17:14,2:56:56,null,0,428,46
+Sandra,Aguas,Prism potion,Plop + Toppings,404,09/11/2022,20,09/11/2022 16:33,09/11/2022 17:19,0:45:50,null,0,44,53
+Nettie,Markus,Banana Jellybean,2 Part Horizontal,405,09/11/2022,26,09/11/2022 14:32,09/11/2022 17:29,2:51:45,null,0,326,6
+Iesha,Millard,Packets,Packet creation,406,09/11/2022,13,09/11/2022 15:09,09/11/2022 17:30,1:54:13,null,0,0,40
+Sabrina,Stafin,Labeling,All slime labeling,407,09/11/2022,19,09/11/2022 17:14,09/11/2022 17:30,0:15:28,null,0,63,38
+Sofia,Torres Navarro,Zeus Crunch Cake,2 Part Vertical,408,09/11/2022,22,09/11/2022 12:02,09/11/2022 18:51,6:02,null,0,400,15
+Hailey,Allen,Peachys poppin rocks GRAPE SODA,Plop + Toppings,409,09/11/2022,12,09/11/2022 17:13,09/11/2022 19:39,1:16:20,null,0,403,48
+Hailey,Allen,Peachys poppin rocks GRAPE SODA,Plop + Toppings,410,09/11/2022,12,09/11/2022 19:50,09/11/2022 20:01,0:10:31,null,0,403,48
+Hailey,Allen,Island Fruit Punch,Plop + Toppings,411,09/11/2022,12,09/11/2022 20:19,09/11/2022 21:23,1:04,null,0,80,45
+Julie,Johnson,Axolotl Sundea,2 Part Horizontal,412,09/11/2022,14,09/11/2022 13:00,09/11/2022 21:28,7:01:30,null,0,300,8
+Micah,Boyd,Labeling,All slime labeling,413,09/11/2022,16,09/11/2022 16:53,09/11/2022 21:31,3:22:12,null,0,801,38
+Prenice,Gilstad,Strawberry Skies,2 Part Horizontal,414,10/11/2022,17,10/11/2022 8:19,10/11/2022 8:37,0:18:30,null,0,100,14
+Sabrina,Stafin,Moo-berry Ice cream,2 Part Twist,415,10/11/2022,19,10/11/2022 9:00,10/11/2022 9:00,0:00:04,null,0,0,46
+Prenice,Gilstad,Strawberry Skies,2 Part Horizontal,416,10/11/2022,17,10/11/2022 8:50,10/11/2022 9:04,0:12:54,null,0,12,14
+Iesha,Millard,Packets,Packet creation,417,10/11/2022,13,10/11/2022 9:01,10/11/2022 9:26,0:24:32,null,0,50,40
+Eric,Tarket,Syrup,All Syrup packing,418,10/11/2022,30,10/11/2022 9:01,10/11/2022 9:28,0:27:16,null,0,0,36
+Ryan,Moss,Syrup,All Syrup packing,419,10/11/2022,18,10/11/2022 9:02,10/11/2022 11:26,2:08:26,null,0,400,36
+Ash,Bradford,Galaxy Boba DIY kit,Plop,420,10/11/2022,6,10/11/2022 9:25,10/11/2022 11:58,2:26:11,null,0,160,42
+Remy,Van Kampen,CLAY,Crumbl Pink Sugar Cookie,421,10/11/2022,29,10/11/2022 13:22,10/11/2022 13:26,0:03:15,null,0,600,58
+Eric,Tarket,Packets,Packet creation,422,10/11/2022,30,10/11/2022 9:41,10/11/2022 13:29,3:26:29,null,0,1,40
+Noel,Graham,CLAY,Peachys Succulent Shop,423,10/11/2022,34,10/11/2022 13:30,10/11/2022 13:30,0:00:04,null,0,0,60
+Remy,Van Kampen,Piggy Bank,Plop + Toppings,424,10/11/2022,29,10/11/2022 13:30,10/11/2022 13:31,0:00:16,null,0,0,56
+Noel,Graham,Marshmallow Dream Bar,Plop + Toppings,425,10/11/2022,34,10/11/2022 13:32,10/11/2022 13:32,0:00:04,null,0,0,57
+Scarlet,McClenny,Aphrodites Love Spell Float,Icee Cloud,426,10/11/2022,35,10/11/2022 13:38,10/11/2022 13:38,0:00:22,null,0,0,9
+Jac,Oh,CLAY,Peachys Succulent Shop,427,10/11/2022,33,10/11/2022 13:39,10/11/2022 13:58,0:14:40,null,0,25,60
+Scarlet,McClenny,CLAY,Peachys Succulent Shop,428,10/11/2022,35,10/11/2022 13:39,10/11/2022 14:24,0:39:11,null,0,60,60
+Ryan,Moss,Labeling,All slime labeling,429,10/11/2022,18,10/11/2022 11:39,10/11/2022 14:55,2:02:57,null,0,800,38
+Julie,Johnson,Axolotl Sundea,2 Part Horizontal,430,10/11/2022,14,10/11/2022 11:03,10/11/2022 15:03,3:51:42,null,0,169,8
+Kyle,King,Fairy Dust Fizz,2 Part Twist,431,10/11/2022,15,10/11/2022 9:57,10/11/2022 15:38,4:34:16,null,0,303,30
+Kyle,King,Fairy Dust Fizz,2 Part Twist,432,10/11/2022,15,10/11/2022 9:57,10/11/2022 15:38,4:34:16,null,0,303,30
+Noel,Graham,CLAY,Crumbl Pink Sugar Cookie,433,10/11/2022,34,10/11/2022 13:38,10/11/2022 16:30,2:52:14,null,0,45,58
+Julie,Johnson,Labeling,All slime labeling,434,10/11/2022,14,10/11/2022 15:06,10/11/2022 16:36,1:06:14,null,0,469,38
+Kyle,King,Labeling,All slime labeling,435,10/11/2022,15,10/11/2022 15:56,10/11/2022 16:46,0:42:03,null,0,303,38
+Ryan,Moss,Lavender Sorbet,Plop,436,10/11/2022,18,10/11/2022 15:23,10/11/2022 17:07,1:33:30,null,0,171,32
+Fernando,Barron,Piggy Bank,Plop + Toppings,437,10/11/2022,36,10/11/2022 9:12,10/11/2022 17:17,7:05:28,null,0,730,56
+Eric,Tarket,Peach Soda Ramune,Plop + Toppings,438,10/11/2022,30,10/11/2022 16:14,10/11/2022 17:22,1:08:15,null,0,68,50
+Ash,Bradford,Space Mushroom,2 Part Horizontal,439,10/11/2022,6,10/11/2022 13:14,10/11/2022 17:30,4:05:51,null,0,156,7
+David,Pham,CLAY,Crumbl Pink Sugar Cookie,440,10/11/2022,31,10/11/2022 14:02,10/11/2022 18:01,3:45:44,null,0,100,58
+Scarlet,McClenny,CLAY,Crumbl Pink Sugar Cookie,441,10/11/2022,35,10/11/2022 14:29,10/11/2022 18:06,3:21:56,null,0,100,58
+Noel,Graham,CLAY,Crumbl Pink Sugar Cookie,442,10/11/2022,34,10/11/2022 16:31,10/11/2022 18:08,0:01:59,null,0,0,58
+Jac,Oh,CLAY,Crumbl Pink Sugar Cookie,443,10/11/2022,33,10/11/2022 13:59,10/11/2022 18:09,4:07,null,0,140,58
+Jac,Oh,Aphrodites Love Spell Float,Icee Cloud,444,10/11/2022,33,10/11/2022 18:17,10/11/2022 18:17,0:00:03,null,0,0,9
+Noel,Graham,Other Tasks,Shelving product,445,10/11/2022,34,10/11/2022 18:14,10/11/2022 19:10,0:55:38,null,0,1600,65
+Noel,Graham,CLAY,Crumbl Pink Sugar Cookie,446,10/11/2022,34,10/11/2022 19:10,10/11/2022 19:24,0:14:03,null,0,20,58
+Scarlet,McClenny,CLAY,Peachys Succulent Shop,447,10/11/2022,35,10/11/2022 18:07,10/11/2022 19:51,0:14:08,null,0,0,60
+Julie,Johnson,De-Stress Dough,Plop,448,10/11/2022,14,10/11/2022 16:37,10/11/2022 19:58,2:09:09,null,0,205,11
+Scarlet,McClenny,CLAY,Crumbl Pink Sugar Cookie,449,10/11/2022,35,10/11/2022 19:52,10/11/2022 20:31,0:32:31,null,0,28,58
+Scarlet,McClenny,CLAY,Peachys Succulent Shop,450,10/11/2022,35,10/11/2022 20:32,10/11/2022 20:51,0:19:35,null,0,12,60
+David,Pham,Other Tasks,Shelving product,451,10/11/2022,31,10/11/2022 18:14,10/11/2022 21:39,2:25,null,0,0,65
+Scarlet,McClenny,CLAY,Crumbl Pink Sugar Cookie,452,10/11/2022,35,10/11/2022 20:51,10/11/2022 21:40,0:00:07,null,0,0,58
+Noel,Graham,CLAY,Crumbl Pink Sugar Cookie,453,10/11/2022,34,10/11/2022 19:24,10/11/2022 21:41,1:55:32,null,0,26,58
+Jac,Oh,CLAY,Crumbl Pink Sugar Cookie,454,10/11/2022,33,10/11/2022 18:17,10/11/2022 21:43,0:20:27,null,0,0,58
+Micah,Boyd,Honeycube Squish Jelly,Plop,455,11/11/2022,16,11/11/2022 9:01,11/11/2022 9:01,0:00:02,null,0,0,10
+Sabrina,Stafin,Other Tasks,Labeling,456,11/11/2022,19,11/11/2022 9:01,11/11/2022 9:06,0:04:57,null,0,37,61
+Ryan,Moss,Other Tasks,Labeling,457,11/11/2022,18,11/11/2022 8:59,11/11/2022 9:25,0:18:41,null,0,171,61
+Micah,Boyd,Honeycube Squish Jelly,Plop,458,11/11/2022,16,11/11/2022 9:01,11/11/2022 9:51,0:50,null,0,74,10
+Ryan,Moss,Lavender Sorbet,Plop,459,11/11/2022,18,11/11/2022 9:42,11/11/2022 11:02,1:19:35,null,0,120,32
+Chandler,Porter,Other Tasks,Baggies,460,11/11/2022,24,11/11/2022 9:08,11/11/2022 11:13,1:41:08,null,0,195,62
+Sabrina,Stafin,Space Mushroom,2 Part Horizontal,461,11/11/2022,19,11/11/2022 9:07,11/11/2022 11:25,2:17:55,null,0,176,7
+Sabrina,Stafin,Space Mushroom,2 Part Horizontal,462,11/11/2022,19,11/11/2022 9:07,11/11/2022 11:25,2:17:55,null,0,176,7
+Sabrina,Stafin,Space Mushroom,2 Part Horizontal,463,11/11/2022,19,11/11/2022 9:07,11/11/2022 11:25,2:17:55,null,0,176,7
+Ryan,Moss,Other Tasks,Labeling,464,11/11/2022,18,11/11/2022 11:03,11/11/2022 11:27,0:23:47,null,0,120,61
+Sabrina,Stafin,Other Tasks,Labeling,465,11/11/2022,19,11/11/2022 11:26,11/11/2022 11:51,0:24:13,null,0,176,61
+Nettie,Markus,Ocean Buddies Jelly,Plop + Toppings,466,11/11/2022,26,11/11/2022 11:00,11/11/2022 13:31,1:18:03,null,0,92,54
+Micah,Boyd,Other Tasks,Labeling,467,11/11/2022,16,11/11/2022 9:56,11/11/2022 13:38,2:06:44,null,0,627,61
+Fernando,Barron,Piggy Bank,Plop + Toppings,468,11/11/2022,36,11/11/2022 9:02,11/11/2022 14:36,4:28:07,null,0,70,56
+Ryan,Moss,Banana Jellybean,2 Part Horizontal,469,11/11/2022,18,11/11/2022 13:03,11/11/2022 15:04,1:52:19,null,0,46,6
+Ryan,Moss,Other Tasks,Labeling,470,11/11/2022,18,11/11/2022 15:04,11/11/2022 15:13,0:08:04,null,0,46,61
+Fernando,Barron,Piggy Bank,Plop + Toppings,471,11/11/2022,36,11/11/2022 14:37,11/11/2022 15:24,0:47:47,null,0,47,56
+Fernando,Barron,Piggy Bank,Plop + Toppings,472,11/11/2022,36,11/11/2022 15:25,11/11/2022 15:44,0:17:43,null,0,47,56
+Chandler,Porter,Emo Girl Jelly,Plop,473,11/11/2022,24,11/11/2022 11:14,11/11/2022 15:46,3:27,null,0,262,27
+Scarlet,McClenny,CLAY,Crumbl Pink Sugar Cookie,474,14/11/2022,35,14/11/2022 9:02,14/11/2022 12:34,0:00:06,null,0,0,58
+Scarlet,McClenny,CLAY,Crumbl Pink Sugar Cookie,475,14/11/2022,35,14/11/2022 12:35,14/11/2022 14:09,0:30:56,null,0,0,58
+David,Pham,Other Tasks,Packets,476,14/11/2022,31,14/11/2022 9:02,14/11/2022 14:33,4:16:11,null,0,0,66
+Scarlet,McClenny,CLAY,Peachys Succulent Shop,477,14/11/2022,35,14/11/2022 14:09,14/11/2022 14:38,0:19:59,null,0,15,60
+Scarlet,McClenny,CLAY,Peachys Succulent Shop,478,14/11/2022,35,14/11/2022 14:09,14/11/2022 14:38,0:19:59,null,0,15,60
+Ryan,Moss,Axolotl Sundea,2 Part Horizontal,479,14/11/2022,18,14/11/2022 9:44,14/11/2022 17:23,6:13:08,null,0,245,8
+David,Pham,CLAY,Christmas Tree,480,14/11/2022,31,14/11/2022 14:43,14/11/2022 17:30,2:37:17,null,0,81,68
+Scarlet,McClenny,CLAY,Christmas Tree,481,14/11/2022,35,14/11/2022 14:39,14/11/2022 17:30,2:42:10,null,0,80,68
+Julie,Johnson,Dreamscape Cloud Frost,2 Part Twist,482,14/11/2022,14,14/11/2022 11:17,14/11/2022 21:32,8:41:16,null,0,282,22
+Hiro,Ocampo,CLAY,Christmas Tree,483,14/11/2022,32,14/11/2022 14:42,14/11/2022 21:57,6:31,null,0,142,68
+Jac,Oh,CLAY,Christmas Sugar Cookies,484,15/11/2022,33,15/11/2022 9:00,15/11/2022 9:11,0:00:10,null,0,0,67
+Ryan,Moss,Other Tasks,Labeling,485,15/11/2022,18,15/11/2022 9:02,15/11/2022 10:00,0:57:34,null,0,282,61
+Sabrina,Stafin,Other Tasks,Lids labeling,486,15/11/2022,19,15/11/2022 9:32,15/11/2022 11:01,1:23:21,null,0,2,64
+Noel,Graham,CLAY,Christmas Sugar Cookies,487,15/11/2022,34,15/11/2022 13:04,15/11/2022 13:38,0:34:21,null,0,0,67
+Jac,Oh,CLAY,Christmas Tree,488,15/11/2022,33,15/11/2022 10:50,15/11/2022 16:53,5:25:19,null,0,82,68
+Ryan,Moss,Dreamscape Cloud Frost,2 Part Twist,489,15/11/2022,18,15/11/2022 10:31,15/11/2022 17:19,5:37:36,null,0,312,22
+Tatiyana,Villareal,Strawberry Cow,Cow,490,15/11/2022,23,15/11/2022 9:00,15/11/2022 17:21,7:47:59,null,0,429,18
+Scarlet,McClenny,CLAY,Christmas Tree,491,15/11/2022,35,15/11/2022 9:00,15/11/2022 17:22,7:30:51,null,0,200,68
+Jac,Oh,CLAY,Christmas Tree,492,15/11/2022,33,15/11/2022 16:53,15/11/2022 17:24,0:30:41,null,0,12,68
+Iesha,Millard,Dreamscape Cloud Frost,2 Part Twist,493,15/11/2022,13,15/11/2022 8:41,15/11/2022 17:24,7:30:45,null,0,419,22
+David,Pham,CLAY,Christmas Tree,494,15/11/2022,31,15/11/2022 9:00,15/11/2022 17:21,7:12:48,null,0,180,68
+Noel,Graham,Other Tasks,Packets,495,15/11/2022,34,15/11/2022 13:39,15/11/2022 17:28,2:57:52,null,0,1,66
+Nettie,Markus,Axolotl Sundea,2 Part Horizontal,496,15/11/2022,26,15/11/2022 9:26,15/11/2022 17:29,7:56:54,null,0,390,8
+Noel,Graham,CLAY,Christmas Sugar Cookies,497,15/11/2022,34,15/11/2022 17:28,15/11/2022 19:24,1:55:47,null,0,1,67
+Julie,Johnson,CLAY,Christmas Sugar Cookies,498,15/11/2022,14,15/11/2022 11:08,15/11/2022 19:44,7:14:31,null,0,1007,67
+Noel,Graham,CLAY,Christmas Sugar Cookies,499,15/11/2022,34,15/11/2022 19:25,15/11/2022 21:25,1:29:31,null,0,30,67
+Noel,Graham,Other Tasks,Baggies,500,15/11/2022,34,15/11/2022 21:27,15/11/2022 21:33,0:06:04,null,0,0,62
+Hiro,Ocampo,CLAY,Christmas Tree,501,15/11/2022,32,15/11/2022 13:02,15/11/2022 22:31,7:26:09,null,0,149,68
+Tatiyana,Villareal,Other Tasks,Labeling,502,16/11/2022,23,15/11/2022 17:22,16/11/2022 8:47,15:25:36,null,0,210,61
+Iesha,Millard,Other Tasks,Labeling,503,16/11/2022,13,16/11/2022 8:53,16/11/2022 9:02,0:06:04,null,0,419,61
+Tatiyana,Villareal,Other Tasks,Labeling,504,16/11/2022,23,16/11/2022 8:48,16/11/2022 9:05,0:16:49,null,0,100,61
+David,Pham,CLAY,Christmas Tree,505,16/11/2022,31,16/11/2022 9:00,16/11/2022 9:47,0:34:48,null,0,20,68
+Ryan,Moss,Other Tasks,Labeling,506,16/11/2022,18,16/11/2022 9:04,16/11/2022 10:00,0:51:33,null,0,312,61
+Scarlet,McClenny,CLAY,Christmas Tree,507,16/11/2022,35,16/11/2022 9:01,16/11/2022 10:36,0:43:49,null,0,20,68
+Christian,Hebenstreich,Strawberry Skies,2 Part Horizontal,508,16/11/2022,8,16/11/2022 9:12,16/11/2022 11:24,2:04:37,null,0,22,14
+Ryan,Moss,Dreamscape Cloud Frost,2 Part Twist,509,16/11/2022,18,16/11/2022 10:30,16/11/2022 13:48,2:08:44,null,0,156,22
+Noel,Graham,CLAY,Christmas Sugar Cookies,510,16/11/2022,34,16/11/2022 13:07,16/11/2022 14:15,1:07:47,null,0,12,67
+Ryan,Moss,Other Tasks,Labeling,511,16/11/2022,18,16/11/2022 13:50,16/11/2022 14:16,0:25:16,null,0,156,61
+Julie,Johnson,Other Tasks,Labeling,512,16/11/2022,14,16/11/2022 11:15,16/11/2022 14:35,1:47:55,null,0,520,61
+Hiro,Ocampo,CLAY,Christmas Sugar Cookies,513,16/11/2022,32,16/11/2022 13:00,16/11/2022 14:36,0:00:39,null,0,1,67
+Noel,Graham,Other Tasks,Clay Packing,514,16/11/2022,34,16/11/2022 14:15,16/11/2022 14:39,0:14:19,null,0,10,69
+Nettie,Markus,Axolotl Sundea,2 Part Horizontal,515,16/11/2022,26,16/11/2022 9:06,16/11/2022 16:11,6:18:47,null,0,237,8
+Chandler,Porter,Blueberry Soda Clouds,Icee Cloud,516,16/11/2022,24,16/11/2022 9:05,16/11/2022 16:23,5:55:45,null,0,315,47
+Ryan,Moss,Asteroid Crunch,Plop,517,16/11/2022,18,16/11/2022 15:12,16/11/2022 17:08,1:48:07,null,0,205,29
+Ryan,Moss,Asteroid Crunch,Plop,518,16/11/2022,18,16/11/2022 17:11,16/11/2022 17:11,0:00:03,null,0,0,29
+David,Pham,CLAY,Christmas Sugar Cookies,519,16/11/2022,31,16/11/2022 9:56,16/11/2022 17:26,6:49:58,null,0,80,67
+Scarlet,McClenny,CLAY,Christmas Sugar Cookies,520,16/11/2022,35,16/11/2022 10:37,16/11/2022 17:30,4:56:20,null,0,75,67
+Ryan,Moss,Other Tasks,Labeling,521,16/11/2022,18,16/11/2022 17:11,16/11/2022 17:34,0:22:15,null,0,205,61
+Christian,Hebenstreich,Strawberry Skies,2 Part Horizontal,522,16/11/2022,8,16/11/2022 11:25,16/11/2022 17:34,4:57:09,null,0,325,14
+Christian,Hebenstreich,Aphrodites Love Spell Float,Icee Cloud,523,16/11/2022,8,16/11/2022 17:35,16/11/2022 17:35,0:00:03,null,0,0,9
+Jac,Oh,CLAY,Christmas Sugar Cookies,524,16/11/2022,33,16/11/2022 9:02,16/11/2022 17:41,7:44:46,null,0,30,67
+Julie,Johnson,De-Stress Dough,Plop,525,16/11/2022,14,16/11/2022 15:30,16/11/2022 20:57,4:18:37,null,0,464,11
+Noel,Graham,Other Tasks,Clay Packing,526,16/11/2022,34,16/11/2022 14:39,16/11/2022 21:09,4:47:49,null,0,224,69
+Noel,Graham,CLAY,Christmas Sugar Cookies,527,16/11/2022,34,16/11/2022 21:10,16/11/2022 21:35,0:24:33,null,0,20,67
+Hiro,Ocampo,Other Tasks,Clay Packing,528,16/11/2022,32,16/11/2022 14:38,16/11/2022 21:55,4:53:45,null,0,401,69
+Julie,Johnson,Other Tasks,Labeling,529,17/11/2022,14,17/11/2022 9:09,17/11/2022 10:27,1:18:10,null,0,464,61
+Ryan,Moss,Asteroid Crunch,Plop,530,17/11/2022,18,17/11/2022 9:19,17/11/2022 11:07,1:38:41,null,0,196,29
+Christian,Hebenstreich,Strawberry Skies,2 Part Horizontal,531,17/11/2022,8,17/11/2022 9:23,17/11/2022 11:43,2:20:14,null,0,100,14
+Ryan,Moss,Other Tasks,Labeling,532,17/11/2022,18,17/11/2022 11:22,17/11/2022 11:59,0:37:30,null,0,196,61
+Christian,Hebenstreich,Other Tasks,Labeling,533,17/11/2022,8,17/11/2022 13:27,17/11/2022 13:52,0:25:16,null,0,100,61
+Nettie,Markus,Island Fruit Punch,Plop + Toppings,534,17/11/2022,26,17/11/2022 9:16,17/11/2022 14:21,4:08:46,null,0,158,45
+Kyle,King,Other Tasks,Syrup packing,535,17/11/2022,15,17/11/2022 9:03,17/11/2022 15:18,5:06:14,null,0,755,63
+Eric,Tarket,Chocolate Chip Cookie Dough,Plop,536,17/11/2022,30,17/11/2022 8:54,17/11/2022 16:58,7:36:45,null,0,346,35
+Christian,Hebenstreich,Lavender Sorbet,Plop,537,17/11/2022,8,17/11/2022 15:17,17/11/2022 17:01,1:31:06,null,0,162,32
+Kyle,King,Other Tasks,Labeling,538,17/11/2022,15,17/11/2022 15:24,17/11/2022 17:12,1:34:39,null,0,755,61
+Eric,Tarket,Other Tasks,Labeling,539,17/11/2022,30,17/11/2022 16:58,17/11/2022 17:18,0:19:46,null,0,27,61
+Scarlet,McClenny,CLAY,Christmas Sugar Cookies,540,17/11/2022,35,17/11/2022 11:11,17/11/2022 17:25,5:32:13,null,0,160,67
+Jac,Oh,CLAY,Christmas Sugar Cookies,541,17/11/2022,33,17/11/2022 9:04,17/11/2022 17:28,7:23:32,null,0,170,67
+Ryan,Moss,Poppin Rocks COTTON CANDY,Plop + Toppings,542,17/11/2022,18,17/11/2022 13:25,17/11/2022 17:31,3:54:18,null,0,434,79
+Julie,Johnson,Teddy Bear Fur Cloud,Plop + Toppings,543,17/11/2022,14,17/11/2022 10:41,17/11/2022 17:34,5:14:46,null,0,386,83
+Nettie,Markus,DragonFruit Candy Crunch,2 Part Horizontal,544,17/11/2022,26,17/11/2022 14:31,17/11/2022 17:34,2:59:59,null,0,160,26
+David,Pham,CLAY,Christmas Sugar Cookies,545,17/11/2022,31,17/11/2022 9:00,17/11/2022 17:24,7:31:24,null,0,150,67
+Ryan,Moss,Other Tasks,Labeling,546,17/11/2022,18,17/11/2022 17:32,17/11/2022 18:46,1:03:20,null,0,434,61
+Noel,Graham,CLAY,Christmas Sugar Cookies,547,17/11/2022,34,17/11/2022 13:13,17/11/2022 21:12,6:57:54,null,0,120,67
+Noel,Graham,Other Tasks,Clay Packing,548,17/11/2022,34,17/11/2022 21:13,17/11/2022 21:28,0:15:56,null,0,0,69
+Ryan,Moss,Other Tasks,Labeling,549,18/11/2022,18,18/11/2022 10:04,18/11/2022 10:17,0:13:16,null,0,386,61
+Christian,Hebenstreich,Lavender Sorbet,Plop,550,18/11/2022,8,18/11/2022 9:10,18/11/2022 10:26,1:05:35,null,0,127,32
+Nettie,Markus,DragonFruit Candy Crunch,2 Part Horizontal,551,18/11/2022,26,18/11/2022 10:16,18/11/2022 11:52,1:36:29,null,0,140,26
+Sabrina,Stafin,Unicorn Fur Cloud,3 part Twist,552,18/11/2022,19,18/11/2022 11:12,18/11/2022 11:55,0:43:08,null,0,122,84
+Christian,Hebenstreich,Other Tasks,Labeling,553,18/11/2022,8,18/11/2022 11:18,18/11/2022 13:08,0:52:05,null,0,289,61
+Hailey,Allen,DragonFruit Candy Crunch,2 Part Horizontal,554,18/11/2022,12,18/11/2022 9:24,18/11/2022 13:36,2:48:53,null,0,164,26
+Ryan,Moss,Strawberry Skies,2 Part Horizontal,555,18/11/2022,18,18/11/2022 10:47,18/11/2022 13:59,1:49:37,null,0,111,14
+Sabrina,Stafin,Other Tasks,Labeling,556,18/11/2022,19,18/11/2022 13:05,18/11/2022 14:20,1:11:18,null,0,0,61
+Amber,Bosch,Fairy Dust Fizz,2 Part Twist,557,18/11/2022,28,18/11/2022 9:16,18/11/2022 14:30,4:12:29,null,0,288,30
+Amber,Bosch,Other Tasks,Labeling,558,18/11/2022,28,18/11/2022 14:31,18/11/2022 14:42,0:11:45,null,0,66,61
+Noel,Graham,CLAY,Christmas Sugar Cookies,559,18/11/2022,34,18/11/2022 13:08,18/11/2022 17:09,3:54:10,null,0,65,67
+Noel,Graham,Other Tasks,Shelving product,560,18/11/2022,34,18/11/2022 17:09,18/11/2022 17:31,0:22:01,null,0,1000,65
+Hiro,Ocampo,CLAY,Christmas Sugar Cookies,561,18/11/2022,32,18/11/2022 14:22,18/11/2022 17:39,1:03:17,null,0,65,67
+Jacq,Oh,Test,Testing only,562,21/11/2022,37,21/11/2022 9:05,21/11/2022 9:06,0:00:40,null,0,10,41
+David,Pham,CLAY,Christmas Sugar Cookies,563,21/11/2022,31,21/11/2022 9:02,21/11/2022 12:52,2:58:34,null,0,45,67
+Manny,Walker,Chocolate Chip Cookie Dough,Plop,564,22/11/2022,38,22/11/2022 0:33,22/11/2022 0:35,0:00:30,null,0,111,35
+Manny,Walker,Cows in Space,Cow,565,22/11/2022,38,22/11/2022 1:22,22/11/2022 1:24,0:00:41,null,0,99,16
+Ana,Zuniga,Campfire Smores CLAY Kit,Plop,566,22/11/2022,5,22/11/2022 1:29,22/11/2022 1:34,0:02:05,null,0,990,21
+Austin,Elmore,Blueberry Soda Clouds,Icee Cloud,567,22/11/2022,4,22/11/2022 1:36,22/11/2022 1:38,0:01:03,null,0,9998,47
+Jacq,Oh,Cake Batter,Plop + Toppings,568,22/11/2022,37,22/11/2022 1:44,22/11/2022 1:46,0:00:37,null,0,123,70
+Christian,Hebenstreich,Cereal Milk Ice Cream,2 part Twist,569,22/11/2022,8,22/11/2022 1:48,22/11/2022 1:50,0:00:48,null,0,16,71
+Dustin,Oliver,Chocolate Chip Cookie Dough,Plop,570,22/11/2022,9,22/11/2022 1:51,22/11/2022 1:54,0:01:01,null,0,37,35
+Noel,Graham,CLAY,Christmas Tree,571,21/11/2022,34,21/11/2022 13:06,21/11/2022 15:37,2:31:10,null,0,33,68
+Manny,Walker,Gingerbread Cookie Dough,Plop + Toppings,572,21/11/2022,38,21/11/2022 9:11,21/11/2022 17:14,6:57:22,null,0,502,85
+Scarlet,McClenny,CLAY,Christmas Sugar Cookies,573,21/11/2022,35,21/11/2022 9:00,21/11/2022 17:20,7:05:19,null,0,135,67
+David,Pham,CLAY,Christmas Tree,574,21/11/2022,31,21/11/2022 16:31,21/11/2022 17:21,0:37:50,null,0,101,68
+Hailey,Allen,Gingerbread Cookie Dough,Plop + Toppings,575,21/11/2022,12,21/11/2022 17:17,21/11/2022 21:00,2:27:43,null,0,300,85
+Noel,Graham,CLAY,Christmas Tree,576,21/11/2022,34,21/11/2022 15:38,21/11/2022 21:11,4:52:59,null,0,70,68
+Julie,Johnson,Other Tasks,Lids labeling,577,21/11/2022,14,21/11/2022 19:06,21/11/2022 21:26,2:19:16,null,0,0,64
+Noel,Graham,Other Tasks,Shelving product,578,21/11/2022,34,21/11/2022 21:13,21/11/2022 21:39,0:26:46,null,0,0,65
+Hiro,Ocampo,CLAY,Christmas Tree,579,21/11/2022,32,21/11/2022 13:01,21/11/2022 21:59,7:48:22,null,0,156,68
+David,Pham,Christmas Tree,Plop ,580,22/11/2022,31,22/11/2022 9:18,22/11/2022 9:18,0:00:03,null,0,0,72
+David,Pham,CLAY,Christmas Tree,581,22/11/2022,31,22/11/2022 9:18,22/11/2022 9:26,0:08:04,null,0,0,68
+Nettie,Markus,Santa Cookies,Plop,582,22/11/2022,26,22/11/2022 9:15,22/11/2022 15:13,4:37:41,null,0,500,81
+Hiro,Ocampo,CLAY,Christmas Tree,583,22/11/2022,32,22/11/2022 13:51,22/11/2022 15:57,1:35:53,null,0,49,68
+Iesha,Millard,Penguin Ice Party,2 person slime,584,22/11/2022,13,22/11/2022 9:31,22/11/2022 16:35,7:03:50,null,0,1200,92
+Prenice,Gilstad,De-Stress Dough,Plop,585,22/11/2022,17,22/11/2022 12:30,22/11/2022 18:26,4:59:23,null,0,598,11
+Nettie,Markus,Melted Snowman,Plop + Toppings,586,22/11/2022,26,22/11/2022 15:30,22/11/2022 17:26,1:56:43,null,0,132,76
+David,Pham,CLAY,Christmas Sugar Cookies,587,22/11/2022,31,22/11/2022 9:27,22/11/2022 17:32,7:01:04,null,0,120,67
+Jacq,Oh,CLAY,Christmas Sugar Cookies,588,22/11/2022,37,22/11/2022 9:23,22/11/2022 18:30,6:38:56,null,0,125,67
+Sofia,Torres Navarro,Axolotl Sundea,2 Part Horizontal,589,22/11/2022,22,22/11/2022 12:08,22/11/2022 18:52,5:47:26,null,0,254,8
+Iesha,Millard,Cereal Milk Ice Cream,2 part Twist,590,22/11/2022,13,22/11/2022 17:52,22/11/2022 19:06,1:02:53,null,0,120,71
+Micah,Boyd,Other Tasks,Lids labeling,591,22/11/2022,16,22/11/2022 17:36,22/11/2022 21:24,2:47:05,null,0,2,64
+Julie,Johnson,Other Tasks,Packets,592,22/11/2022,14,22/11/2022 17:55,22/11/2022 21:26,2:21:58,null,0,200,66
+Hiro,Ocampo,CLAY,Duolingo,593,22/11/2022,32,22/11/2022 17:09,22/11/2022 21:59,3:35:29,null,0,161,93
+Iesha,Millard,Cereal Milk Ice Cream,2 part Twist,594,23/11/2022,13,23/11/2022 8:48,23/11/2022 8:54,0:05:48,null,0,0,71
+Prenice,Gilstad,Other Tasks,Labeling,595,23/11/2022,17,23/11/2022 9:13,23/11/2022 11:07,1:50:07,null,0,598,61
+Christian,Hebenstreich,CLAY,Christmas Tree,596,23/11/2022,8,23/11/2022 8:49,23/11/2022 11:06,2:04:34,null,0,392,68
+Julie,Johnson,Other Tasks,Labeling,597,23/11/2022,14,23/11/2022 12:07,23/11/2022 13:24,1:17:35,null,0,492,61
+Iesha,Millard,Cereal Milk Ice Cream,2 part Twist,598,23/11/2022,13,23/11/2022 10:11,23/11/2022 13:39,3:18:20,null,0,301,71
+Iesha,Millard,Other Tasks,Lids labeling,599,23/11/2022,13,23/11/2022 13:43,23/11/2022 13:59,0:16,null,0,0,64
+Prenice,Gilstad,Other Tasks,Baggies,600,23/11/2022,17,23/11/2022 11:08,23/11/2022 15:48,3:53:46,null,0,598,62
+Nettie,Markus,Melted Snowman,Plop + Toppings,601,23/11/2022,26,23/11/2022 7:08,23/11/2022 15:22,7:00:20,null,0,552,76
+Hailey,Allen,Peachys Christmas Cake,2 part Twist,602,23/11/2022,12,23/11/2022 12:26,23/11/2022 17:22,4:02:46,null,0,420,87
+Sabrina,Stafin,Other Tasks,Lids labeling,603,23/11/2022,19,23/11/2022 8:58,23/11/2022 16:30,6:07:44,null,0,4,64
+Ryan,Moss,Peachys Christmas Cake,2 part Twist,604,23/11/2022,18,23/11/2022 11:27,23/11/2022 17:39,5:06:31,null,0,420,87
+Eric,Tarket,Santa Cookies,Plop,605,23/11/2022,30,23/11/2022 10:16,23/11/2022 16:40,5:55:16,null,0,300,81
+Sofia,Torres Navarro,Axolotl Sundea,2 Part Horizontal,606,23/11/2022,22,23/11/2022 9:11,23/11/2022 16:55,6:44:39,null,0,350,8
+Prenice,Gilstad,Other Tasks,Baggies,607,23/11/2022,17,23/11/2022 15:52,23/11/2022 18:03,1:39:45,null,0,598,62
+Kandace,Davids,Astronaut Ice Cream,3 part Twist,608,23/11/2022,39,23/11/2022 9:22,23/11/2022 17:05,6:38:18,null,0,359,94
+Nettie,Markus,Penguin Ice Party,2 person slime,609,23/11/2022,26,23/11/2022 15:40,23/11/2022 17:25,1:45:17,null,0,0,92
+Julie,Johnson,Melted Snowman,Plop + Toppings,610,23/11/2022,14,23/11/2022 13:40,23/11/2022 21:00,5:57:12,null,0,402,76
+Julie,Johnson,Other Tasks,Labeling,611,23/11/2022,14,23/11/2022 21:01,23/11/2022 22:03,0:59:35,null,0,402,61
+Hiro,Ocampo,CLAY,Duolingo,612,23/11/2022,32,23/11/2022 13:56,23/11/2022 22:56,7:35:21,null,0,291,93
+Austin,Elmore,Peachys Christmas Cake,2 part Twist,613,24/11/2022,4,24/11/2022 8:11,24/11/2022 10:50,2:21:52,null,0,128,87
+Nettie,Markus,Pink Christmas,2 Part Horizontal,614,24/11/2022,26,24/11/2022 12:36,24/11/2022 12:59,0:23:22,null,0,256,90
+Sofia,Torres Navarro,Axolotl Sundea,2 Part Horizontal,615,24/11/2022,22,24/11/2022 8:46,24/11/2022 12:09,3:22:33,null,0,162,8
+Fernando,Barron,Melted Snowman,Plop + Toppings,616,25/11/2022,36,24/11/2022 8:28,25/11/2022 7:48,23:19:23,null,0,185,76
+Prenice,Gilstad,Other Tasks,Labeling,617,25/11/2022,17,25/11/2022 7:48,25/11/2022 8:27,0:38:37,null,0,185,61
+Christian,Hebenstreich,Aphrodites Love Spell Float,Icee Cloud,618,25/11/2022,8,25/11/2022 8:45,25/11/2022 8:45,0:00:03,null,0,0,9
+Jac,Oh,CLAY,Christmas Sugar Cookies,620,25/11/2022,33,23/11/2022 9:01,23/11/2022 17:39,7:18:31,null,0,0,67
+Dustin,Oliver,Test,Testing only,621,25/11/2022,9,25/11/2022 11:11,25/11/2022 11:11,0:00:02,null,0,0,41
+Micah,Boyd,Froggy Boba,Icee Cloud,622,25/11/2022,16,25/11/2022 9:04,25/11/2022 10:45,1:34:40,null,0,113,13
+Micah,Boyd,Other Tasks,Labeling,623,25/11/2022,16,25/11/2022 10:47,25/11/2022 11:02,0:15:04,null,0,113,61
+Iesha,Millard,Cereal Milk Ice Cream,2 part Twist,624,25/11/2022,13,25/11/2022 9:09,25/11/2022 11:33,2:19:11,null,0,174,71
+Micah,Boyd,Axolotl Sundea,2 Part Horizontal,625,25/11/2022,16,25/11/2022 11:33,25/11/2022 11:36,0:00:35,null,0,0,8
+Prenice,Gilstad,Melted Snowman,Plop + Toppings,626,25/11/2022,17,25/11/2022 9:14,25/11/2022 11:47,2:27:34,null,0,212,76
+Iesha,Millard,Other Tasks,Labeling,627,25/11/2022,13,25/11/2022 11:38,25/11/2022 12:02,0:24:02,null,0,174,61
+Micah,Boyd,Other Tasks,Labeling,628,25/11/2022,16,25/11/2022 11:37,25/11/2022 12:06,0:29:01,null,0,162,61
+Dustin,Oliver,Other Tasks,Syrup packing,629,25/11/2022,9,25/11/2022 12:56,25/11/2022 13:03,0:07:19,null,0,0,63
+Prenice,Gilstad,Other Tasks,Labeling,630,25/11/2022,17,25/11/2022 11:50,25/11/2022 13:09,0:46:04,null,0,212,61
+Ryan,Moss,Peachys Christmas Cake,2 part Twist,631,25/11/2022,18,25/11/2022 10:18,25/11/2022 14:30,2:36:40,null,0,203,87
+Micah,Boyd,Astronaut Ice Cream,3 part Twist,632,25/11/2022,16,25/11/2022 13:25,25/11/2022 13:55,0:30,null,0,36,94
+Micah,Boyd,Astronaut Ice Cream,3 part Twist,633,25/11/2022,16,25/11/2022 13:55,25/11/2022 13:55,0:00:03,null,0,0,94
+Micah,Boyd,Other Tasks,Labeling,634,25/11/2022,16,25/11/2022 13:55,25/11/2022 14:00,0:05:07,null,0,36,61
+Dustin,Oliver,Other Tasks,Syrup packing,635,25/11/2022,9,25/11/2022 13:04,25/11/2022 14:12,1:07:57,null,0,800,63
+Christian,Hebenstreich,Candy Cane Lane,2 part Twist,636,25/11/2022,8,25/11/2022 10:24,25/11/2022 15:13,2:39:39,null,0,299,86
+Hailey,Allen,Candy Cane Lane,2 part Twist,637,25/11/2022,12,25/11/2022 10:29,25/11/2022 15:26,3:37:07,null,0,364,86
+Hiro,Ocampo,CLAY,Duolingo,638,25/11/2022,32,25/11/2022 10:30,25/11/2022 15:30,4:16:25,null,0,50,93
+Tatiyana,Villareal,Candy Cane Lane,2 part Twist,639,25/11/2022,23,25/11/2022 9:26,25/11/2022 14:32,4:05:05,null,0,405,86
+Prenice,Gilstad,Pink Christmas,2 Part Horizontal,640,25/11/2022,17,25/11/2022 14:36,25/11/2022 15:34,0:58:25,null,0,56,90
+Sandra,Aguas,Hawaiian Punch,Plop,641,25/11/2022,20,25/11/2022 9:10,25/11/2022 14:54,4:30:48,null,0,292,20
+Sandra,Aguas,Aphrodites Love Spell Float,Icee Cloud,642,25/11/2022,20,25/11/2022 14:55,25/11/2022 14:55,0:00:03,null,0,0,9
+Hailey,Allen,Other Tasks,Labeling,643,25/11/2022,12,25/11/2022 15:33,25/11/2022 16:28,0:54:32,null,0,364,61
+Tatiyana,Villareal,Other Tasks,Labeling,644,25/11/2022,23,25/11/2022 14:40,25/11/2022 15:44,1:03:28,null,0,405,61
+Dustin,Oliver,Other Tasks,Labeling,645,25/11/2022,9,25/11/2022 14:15,25/11/2022 15:46,1:27:24,null,0,800,61
+Ryan,Moss,Other Tasks,Labeling,646,25/11/2022,18,25/11/2022 14:35,25/11/2022 16:59,2:14:15,null,0,1000,61
+Sandra,Aguas,Other Tasks,Labeling,647,25/11/2022,20,25/11/2022 14:56,25/11/2022 16:01,0:55:54,null,0,292,61
+Christian,Hebenstreich,Other Tasks,Labeling,648,25/11/2022,8,25/11/2022 16:08,25/11/2022 17:27,1:11:48,null,0,299,61
+Iesha,Millard,Honeycube Squish Jelly,Plop,649,25/11/2022,13,25/11/2022 13:24,25/11/2022 16:43,3:03:25,null,0,228,10
+Ryan,Moss,Pink Christmas,2 Part Horizontal,650,25/11/2022,18,25/11/2022 17:49,25/11/2022 17:49,0:00:03,null,0,35,90
+Hailey,Allen,Pink Christmas,2 Part Horizontal,651,25/11/2022,12,25/11/2022 17:15,25/11/2022 17:49,0:33:11,null,0,40,90
+Tatiyana,Villareal,Unicorn Fur Cloud,3 part Twist,652,25/11/2022,23,25/11/2022 16:00,25/11/2022 16:50,0:50:30,null,0,48,84
+Micah,Boyd,DragonFruit Candy Crunch,2 Part Horizontal,653,25/11/2022,16,25/11/2022 14:24,25/11/2022 17:00,2:35:32,null,0,95,26
+Sandra,Aguas,DragonFruit Candy Crunch,2 Part Horizontal,654,25/11/2022,20,25/11/2022 16:11,25/11/2022 17:14,1:03:35,null,0,63,26
+Amber,Bosch,Christmas Tree,Plop ,655,28/11/2022,28,28/11/2022 10:18,28/11/2022 15:35,4:16:15,null,0,506,72
+Iesha,Millard,Blueberry Cow,Cow,656,28/11/2022,13,28/11/2022 9:18,28/11/2022 16:16,5:47:19,null,0,500,91
+Tatiyana,Villareal,Strawberry Skies,2 Part Horizontal,657,28/11/2022,23,28/11/2022 9:17,28/11/2022 17:22,6:44:22,null,0,501,14
+Iesha,Millard,Other Tasks,Labeling,658,28/11/2022,13,28/11/2022 16:21,28/11/2022 17:27,0:57:03,null,0,0,61
+Iesha,Millard,Other Tasks,Labeling,659,28/11/2022,13,28/11/2022 16:21,28/11/2022 17:27,0:57:03,null,0,0,61
+Amber,Bosch,Candy Cane Lane,2 part Twist,660,28/11/2022,28,28/11/2022 15:59,28/11/2022 17:29,1:30:16,null,0,160,86
+Nettie,Markus,Unicorn Fur Cloud,3 part Twist,661,28/11/2022,26,28/11/2022 10:46,28/11/2022 17:29,5:30:15,null,0,392,84
+David,Pham,CLAY,Duolingo,662,28/11/2022,31,28/11/2022 10:00,28/11/2022 18:29,7:17:52,null,0,0,93
+Scarlet,McClenny,CLAY,Duolingo,663,28/11/2022,35,28/11/2022 10:00,28/11/2022 18:30,7:22:52,null,0,0,93
+Hailey,Allen,Other Tasks,Lids labeling,664,28/11/2022,12,28/11/2022 20:19,28/11/2022 21:28,1:09:49,null,0,1,64
+Erika,Roa,Other Tasks,Lids labeling,665,28/11/2022,11,28/11/2022 20:20,28/11/2022 21:30,1:09:54,null,0,1,64
+Noel,Graham,CLAY,Christmas Tree,666,28/11/2022,34,28/11/2022 13:05,28/11/2022 21:30,6:17:59,null,0,151,68
+Julie,Johnson,Other Tasks,Lids labeling,667,28/11/2022,14,28/11/2022 20:19,28/11/2022 21:30,1:11:42,null,0,1,64
+Hiro,Ocampo,CLAY,Christmas Sugar Cookies,668,28/11/2022,32,28/11/2022 14:01,28/11/2022 23:07,7:01:50,null,0,130,67
+Scarlet,McClenny,CLAY,Duolingo,669,29/11/2022,35,29/11/2022 10:00,29/11/2022 10:05,0:00:06,null,0,0,93
+Jac,Oh,Aphrodites Love Spell Float,Icee Cloud,670,29/11/2022,33,29/11/2022 9:00,29/11/2022 9:09,0:00:29,null,0,0,9
+Tatiyana,Villareal,Other Tasks,Labeling,671,29/11/2022,23,29/11/2022 9:00,29/11/2022 10:29,1:28:51,null,0,501,61
+David,Pham,CLAY,Christmas Tree,672,29/11/2022,31,29/11/2022 10:05,29/11/2022 14:02,3:19:41,null,0,0,68
+David,Pham,CLAY,Christmas Tree,673,29/11/2022,31,29/11/2022 14:03,29/11/2022 15:39,1:05:28,null,0,0,68
+Scarlet,McClenny,CLAY,Christmas Sugar Cookies,674,29/11/2022,35,29/11/2022 10:05,29/11/2022 15:39,5:03:02,null,0,0,67
+Prenice,Gilstad,Melted Snowman,Plop + Toppings,675,29/11/2022,17,29/11/2022 8:08,29/11/2022 15:33,6:28:21,null,0,512,76
+Amber,Bosch,Candy Cane Lane,2 part Twist,676,29/11/2022,28,29/11/2022 8:35,29/11/2022 15:44,6:06:45,null,0,549,86
+Dustin,Oliver,Melted Snowman,Plop + Toppings,677,29/11/2022,9,29/11/2022 8:39,29/11/2022 16:17,6:36:54,null,0,500,76
+Tatiyana,Villareal,De-Stress Dough,Plop,678,29/11/2022,23,29/11/2022 10:55,29/11/2022 16:34,4:29:08,null,0,844,11
+Prenice,Gilstad,Other Tasks,Labeling,679,29/11/2022,17,29/11/2022 15:40,29/11/2022 16:53,1:13:06,null,0,512,61
+Prenice,Gilstad,Other Tasks,Shelving product,680,29/11/2022,17,29/11/2022 16:54,29/11/2022 17:15,0:12:38,null,0,512,65
+Amber,Bosch,Other Tasks,Labeling,681,29/11/2022,28,29/11/2022 15:47,29/11/2022 17:16,1:29:01,null,0,706,61
+Dustin,Oliver,Other Tasks,Labeling,682,29/11/2022,9,29/11/2022 16:18,29/11/2022 17:26,1:05:15,null,0,500,61
+Tatiyana,Villareal,Other Tasks,Labeling,683,29/11/2022,23,29/11/2022 16:40,29/11/2022 17:30,0:49:54,null,0,399,61
+Jac,Oh,CLAY,Christmas Sugar Cookies,684,29/11/2022,33,29/11/2022 9:09,29/11/2022 17:31,6:55:44,null,0,0,67
+Nettie,Markus,DragonFruit Candy Crunch,2 Part Horizontal,685,30/11/2022,26,30/11/2022 9:19,30/11/2022 16:55,4:15:47,null,0,254,26
+Eric,Tarket,Axolotl Sundea,2 Part Horizontal,686,30/11/2022,30,30/11/2022 9:19,30/11/2022 17:16,6:50:58,null,0,240,8
+Hiro,Ocampo,Other Tasks,Clay Packing,687,30/11/2022,32,30/11/2022 18:10,30/11/2022 23:03,1:54:37,null,0,260,69
+Austin,Elmore,CLAY,Crumbl Pink Sugar Cookie,688,01/12/2022,4,01/12/2022 8:06,01/12/2022 8:07,0:00:03,null,0,0,58
+Prenice,Gilstad,Other Tasks,Labeling,689,01/12/2022,17,01/12/2022 8:02,01/12/2022 8:47,0:43:03,null,0,258,61
+Prenice,Gilstad,Other Tasks,Shelving product,690,01/12/2022,17,01/12/2022 8:48,01/12/2022 8:55,0:07:26,null,0,258,65
+David,Pham,CLAY,Christmas Sugar Cookies,691,01/12/2022,31,01/12/2022 10:01,01/12/2022 10:12,0:10:44,null,0,0,67
+Prenice,Gilstad,CLAY,Christmas Sugar Cookies,692,01/12/2022,17,01/12/2022 11:01,01/12/2022 11:01,0:00:04,null,0,89,67
+Prenice,Gilstad,Other Tasks,Shelving product,693,01/12/2022,17,01/12/2022 11:02,01/12/2022 11:05,0:03:26,null,0,89,65
+Eric,Tarket,Axolotl Sundea,2 Part Horizontal,694,01/12/2022,30,01/12/2022 9:01,01/12/2022 13:28,2:37:45,null,0,111,8
+Prenice,Gilstad,Other Tasks,Labeling,695,01/12/2022,17,01/12/2022 13:22,01/12/2022 13:31,0:08:47,null,0,51,61
+Sandra,Aguas,Cereal Milk Ice Cream,2 part Twist,696,01/12/2022,20,01/12/2022 9:08,01/12/2022 14:50,4:22:16,null,0,254,71
+Eric,Tarket,Other Tasks,Labeling,697,01/12/2022,30,01/12/2022 13:29,01/12/2022 14:58,1:29:01,null,0,351,61
+Eric,Tarket,Other Tasks,Labeling,698,01/12/2022,30,01/12/2022 13:29,01/12/2022 14:58,1:29:01,null,0,351,61
+Eric,Tarket,Other Tasks,Shelving product,699,01/12/2022,30,01/12/2022 15:10,01/12/2022 15:24,0:13:49,null,0,351,65
+Sandra,Aguas,Other Tasks,Labeling,700,01/12/2022,20,01/12/2022 14:50,01/12/2022 16:05,1:14:57,null,0,254,61
+Eric,Tarket,Cucumber Melon Scrub,Plop + Toppings,701,01/12/2022,30,01/12/2022 16:16,01/12/2022 17:25,0:58:44,null,0,91,51
+Prenice,Gilstad,Dino Exhibit,Plop,702,01/12/2022,17,01/12/2022 13:44,01/12/2022 17:33,3:38:14,null,0,405,25
+David,Pham,CLAY,Christmas Tree,703,01/12/2022,31,01/12/2022 10:12,01/12/2022 18:34,6:19:46,null,0,0,68
+Scarlet,McClenny,CLAY,Christmas Sugar Cookies,704,01/12/2022,35,01/12/2022 15:59,01/12/2022 18:35,2:08:41,null,0,0,67
+Eric,Tarket,Dino Exhibit,Plop,705,02/12/2022,30,02/12/2022 9:01,02/12/2022 13:02,2:06:59,null,0,125,25
+Nettie,Markus,Zeus Crunch Cake,2 Part Vertical,706,02/12/2022,26,02/12/2022 12:46,02/12/2022 13:12,0:26:52,null,0,244,15
+Sandra,Aguas,Iced Water,Plop + Toppings,707,02/12/2022,20,02/12/2022 9:03,02/12/2022 14:02,3:47:16,null,0,333,52
+Sandra,Aguas,Other Tasks,Labeling,708,02/12/2022,20,02/12/2022 14:02,02/12/2022 14:47,0:44:30,null,0,333,61
+Hiro,Ocampo,Other Tasks,Clay Packing,709,02/12/2022,32,02/12/2022 13:34,02/12/2022 18:53,5:18:21,null,0,0,69
+David,Pham,CLAY,Duolingo,710,05/12/2022,31,05/12/2022 10:05,05/12/2022 10:10,0:00:08,null,0,0,93
+David,Pham,CLAY,Christmas Sugar Cookies,711,05/12/2022,31,05/12/2022 10:10,05/12/2022 11:35,0:00:08,null,0,0,67
+Iesha,Millard,Christmas Tree,Plop ,712,05/12/2022,13,05/12/2022 9:18,05/12/2022 14:43,4:10:06,null,0,729,72
+Iesha,Millard,Other Tasks,Labeling,713,05/12/2022,13,05/12/2022 14:48,05/12/2022 16:54,1:53:44,null,0,729,61
+Amber,Bosch,Candy Cane Lane,2 part Twist,714,05/12/2022,28,05/12/2022 14:41,05/12/2022 17:15,2:34,null,0,356,86
+David,Pham,CLAY,Duolingo,715,05/12/2022,31,05/12/2022 11:36,05/12/2022 18:29,5:12:02,null,0,0,93
+Amber,Bosch,Candy Cane Lane,2 part Twist,716,06/12/2022,28,06/12/2022 9:07,06/12/2022 11:06,1:59:13,null,0,191,86
+Amber,Bosch,Other Tasks,Labeling,717,06/12/2022,28,06/12/2022 11:18,06/12/2022 13:27,1:08:41,null,0,460,61
+David,Pham,CLAY,Christmas Tree,718,06/12/2022,31,06/12/2022 10:00,06/12/2022 18:32,7:10:46,null,0,0,68
+Asya,Arterberry,Dreamscape Cloud Frost,2 Part Twist,719,07/12/2022,7,07/12/2022 9:07,07/12/2022 13:48,3:34:40,null,0,170,22
+Asya,Arterberry,Other Tasks,Labeling,720,07/12/2022,7,07/12/2022 13:50,07/12/2022 14:44,0:53:50,null,0,374,61
+Sandra,Aguas,Other Tasks,Clay Packing,721,07/12/2022,20,07/12/2022 9:39,07/12/2022 15:55,5:20:23,null,0,266,69
+Iesha,Millard,Melted Snowman,Plop + Toppings,722,07/12/2022,13,07/12/2022 16:46,07/12/2022 17:31,0:45:23,null,0,647,76
+Iesha,Millard,Melted Snowman,Plop + Toppings,723,08/12/2022,13,08/12/2022 8:56,08/12/2022 10:30,1:34:12,null,0,111,76
+Sandra,Aguas,Cake Batter,Plop + Toppings,724,08/12/2022,20,08/12/2022 9:00,08/12/2022 11:48,2:40:04,null,0,272,70
+Sandra,Aguas,Other Tasks,Labeling,725,08/12/2022,20,08/12/2022 11:48,08/12/2022 13:40,0:49,null,0,272,61
+Iesha,Millard,Other Tasks,Labeling,726,08/12/2022,13,08/12/2022 10:34,08/12/2022 13:44,2:56:09,null,0,758,61
+Christian,Hebenstreich,Axolotl Sundea,2 Part Horizontal,727,08/12/2022,8,08/12/2022 8:52,08/12/2022 16:31,6:03:41,null,0,261,8
+Iesha,Millard,Witching Hour,Plop ,728,08/12/2022,13,08/12/2022 15:08,08/12/2022 17:09,2:00:56,null,0,270,31
+Sandra,Aguas,Axolotl Sundea,2 Part Horizontal,729,08/12/2022,20,08/12/2022 14:08,08/12/2022 17:27,3:18:55,null,0,127,8
+Iesha,Millard,Candy Cane Lane,2 part Twist,730,09/12/2022,13,09/12/2022 8:53,09/12/2022 10:38,1:09:58,null,0,165,86
+Iesha,Millard,Other Tasks,Labeling,731,09/12/2022,13,09/12/2022 10:42,09/12/2022 11:03,0:20:55,null,0,165,61
+Sandra,Aguas,Penguin Ice Party,2 person slime,732,09/12/2022,20,09/12/2022 9:06,09/12/2022 14:28,4:18:59,null,0,390,92
+Iesha,Millard,Cake Batter,Plop + Toppings,733,12/12/2022,13,12/12/2022 9:14,12/12/2022 9:28,0:14:35,null,0,63,70
+Christian,Hebenstreich,Winter Fuzzy Cow,Cow,734,13/12/2022,8,12/12/2022 10:09,13/12/2022 9:08,21:49:33,null,0,0,95
+Iesha,Millard,Cereal Milk Ice Cream,2 part Twist,735,13/12/2022,13,13/12/2022 9:11,13/12/2022 13:54,4:35:37,null,0,300,71
+Christian,Hebenstreich,Winter Fuzzy Cow,Cow,736,13/12/2022,8,13/12/2022 9:09,13/12/2022 17:11,7:56:08,null,0,406,95
+Eric,Tarket,Other Tasks,Syrup packing,737,14/12/2022,30,14/12/2022 9:48,14/12/2022 14:30,4:27:41,null,0,508,63
+Sandra,Aguas,Lavender Sorbet,Plop,738,14/12/2022,20,14/12/2022 9:15,14/12/2022 15:03,4:36:23,null,0,339,32
+Sandra,Aguas,DragonFruit Candy Crunch,2 Part Horizontal,739,14/12/2022,20,14/12/2022 16:34,14/12/2022 17:15,0:38:49,null,0,30,26
+Eric,Tarket,Other Tasks,Labeling,740,14/12/2022,30,14/12/2022 15:05,14/12/2022 17:27,2:05:59,null,0,465,61
+Eric,Tarket,Other Tasks,Labeling,741,15/12/2022,30,15/12/2022 9:05,15/12/2022 9:24,0:19:16,null,0,35,61
+Eric,Tarket,Other Tasks,Shelving product,742,15/12/2022,30,15/12/2022 9:24,15/12/2022 9:31,0:06:50,null,0,2,65
+Sandra,Aguas,DragonFruit Candy Crunch,2 Part Horizontal,743,15/12/2022,20,15/12/2022 9:04,15/12/2022 14:55,4:40:14,null,0,243,26
+Sandra,Aguas,Polar Bear Ice Pop,2 Part Vertical,744,15/12/2022,20,15/12/2022 16:15,15/12/2022 17:12,0:57:21,null,0,56,98
+Christian,Hebenstreich,Animal Cracker Cheesecake,2 part Horizontal,745,15/12/2022,8,15/12/2022 13:19,15/12/2022 17:24,4:05:04,null,0,158,100
+Eric,Tarket,Cereal Milk Ice Cream,2 part Twist,746,15/12/2022,30,15/12/2022 9:38,15/12/2022 17:26,6:13:24,null,0,200,71
+Asya,Arterberry,CashApp DIY Kit,Plop + Toppings,747,16/12/2022,7,16/12/2022 9:05,16/12/2022 10:19,1:13:44,null,0,88,96
+Eric,Tarket,Cereal Milk Ice Cream,2 part Twist,748,16/12/2022,30,16/12/2022 9:01,16/12/2022 14:26,4:30:58,null,0,153,71
+Sandra,Aguas,Polar Bear Ice Pop,2 Part Vertical,749,16/12/2022,20,16/12/2022 9:48,16/12/2022 15:52,5:00:37,null,0,372,98
+Eric,Tarket,Other Tasks,Labeling,750,16/12/2022,30,16/12/2022 15:16,16/12/2022 16:44,0:46:23,null,0,353,61
+Amanda,Jones,Asteroid Crunch,Plop,751,19/12/2022,3,19/12/2022 19:49,19/12/2022 19:51,0:01:38,null,0,250,29
+Asya,Arterberry,Astronaut Ice Cream,3 part Twist,752,19/12/2022,7,19/12/2022 20:21,19/12/2022 20:25,0:01:58,null,0,120,94
+Asya,Arterberry,Asteroid Crunch,Plop,753,19/12/2022,7,19/12/2022 20:28,19/12/2022 20:30,23:59:50,5,100,199,29
+Asya,Arterberry,Asteroid Crunch,Plop,754,19/12/2022,7,19/12/2022 21:04,19/12/2022 21:08,0:02:29,null,0,89,29
+Asya,Arterberry,Asteroid Crunch,Plop,755,19/12/2022,7,19/12/2022 21:04,19/12/2022 21:08,0:02:29,null,0,89,29
+Asya,Arterberry,Asteroid Crunch,Plop,756,19/12/2022,7,19/12/2022 21:10,19/12/2022 21:12,0:01:24,null,0,99,29
+Amanda,Jones,Asteroid Crunch,Plop,757,19/12/2022,3,19/12/2022 21:15,19/12/2022 21:15,0:00:29,null,0,99,29
+Amanda,Jones,Banana Jellybean,2 Part Horizontal,758,19/12/2022,3,19/12/2022 21:27,19/12/2022 21:29,0:01:50,null,0,99,6
+Asya,Arterberry,Axolotl Sundea,2 Part Horizontal,759,19/12/2022,7,19/12/2022 21:35,19/12/2022 21:39,0:03:43,null,0,12,8
+Amber,Bosch,Polar Bear Ice Pop,2 Part Vertical,760,19/12/2022,28,19/12/2022 9:09,19/12/2022 17:13,6:58:05,null,0,593,98
+David,Pham,CLAY,Fresh Honeycomb,761,19/12/2022,31,19/12/2022 9:39,19/12/2022 17:40,7:20:31,null,0,0,99
+Amanda,Jones,Axolotl Sundea,2 Part Horizontal,762,20/12/2022,3,20/12/2022 16:32,20/12/2022 16:34,0:01:46,null,0,99,8
+Amanda,Jones,Axolotl Sundea,2 Part Horizontal,763,20/12/2022,3,20/12/2022 16:32,20/12/2022 16:34,0:01:46,null,0,99,8
+Scarlet,McClenny,CLAY,Christmas Sugar Cookies,764,20/12/2022,35,19/12/2022 10:32,20/12/2022 10:10,2:46:57,null,0,0,67
+Amber,Bosch,Polar Bear Ice Pop,2 Part Vertical,765,20/12/2022,28,20/12/2022 9:12,20/12/2022 14:54,4:35:53,null,0,358,98
+David,Pham,CLAY,Fresh Honeycomb,766,20/12/2022,31,20/12/2022 9:11,20/12/2022 17:30,7:53:14,null,0,0,99
+Amber,Bosch,Other Tasks,Labeling,767,20/12/2022,28,20/12/2022 15:00,20/12/2022 17:30,2:21:33,null,0,909,61
+Scarlet,McClenny,CLAY,Fresh Honeycomb,768,21/12/2022,35,20/12/2022 10:12,21/12/2022 10:02,21:52:54,null,0,0,99
