@@ -49,7 +49,7 @@ if (!isset($_SESSION['username'])) {
                 <input type="number" class="form-control" name="multiplier" placeholder="Slime Multiplier"
                        required="required" value="<?php echo $row['multiplier'] ?>"/>
                 <br>
-                <input class="btn btn-outline-primary form-control" name="submit" type="submit" value="Add Slime"/>
+                <input class="btn btn-outline-primary form-control" name="submit" type="submit" value="Update Slime"/>
             </form>
         </div>
     </div>
