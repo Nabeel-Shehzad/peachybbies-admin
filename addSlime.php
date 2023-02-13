@@ -53,7 +53,7 @@ if (isset($_GET['success'])) {
                 <input type="text" class="form-control" name="texture" placeholder="Slime Texture"
                        required="required"/>
                 <br>
-                <input type="number" class="form-control" name="multiplier" placeholder="Slime Multiplier"
+                <input type="number" class="form-control" name="multiplier" placeholder="Slime Multiplier %"
                        required="required"/>
                 <br>
                 <input class="btn btn-outline-primary form-control" name="submit" type="submit" value="Add Slime"/>
@@ -71,7 +71,7 @@ if (isset($_GET['success'])) {
                     <th>ID</th>
                     <th>Slime Name</th>
                     <th>Slime Texture</th>
-                    <th>Slime Multiplier</th>
+                    <th>Slime Multiplier (%)</th>
                     <th>Action</th>
                 </tr>
                 </thead>
@@ -92,7 +92,7 @@ if (isset($_GET['success'])) {
                             <td><?php echo $row["id"] ?></td>
                             <td><?php echo $row["slime_name"] ?></td>
                             <td><?php echo $row["slime_texture"] ?></td>
-                            <td><?php echo $row["multiplier"] ?></td>
+                            <td><?php echo $row["multiplier"] . '%' ?></td>
                             <td>
                                 <a class="btn btn-danger btn-sm"
                                    href="forms/deleteSlime.php?id=<?php echo $row['id'] ?>">Delete</a>
@@ -111,7 +111,7 @@ if (isset($_GET['success'])) {
                     <th>ID</th>
                     <th>Slime Name</th>
                     <th>Slime Texture</th>
-                    <th>Slime Multiplier</th>
+                    <th>Slime Multiplier (%)</th>
                     <th>Action</th>
                 </tr>
                 </tfoot>
