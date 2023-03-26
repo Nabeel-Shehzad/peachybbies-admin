@@ -5,6 +5,11 @@
     <div class="container-fluid justify-content-end">
         <div class="row mr-0">
             <div class="col-12">
+                <a href="dashboard.php" class="btn btn-outline-primary d-none d-lg-block">Dashboard</a>
+            </div>
+        </div>
+        <div class="row mr-0">
+            <div class="col-12">
                 <a href="multiplier.php" class="btn btn-outline-primary d-none d-lg-block">Multiplier Report</a>
             </div>
         </div>

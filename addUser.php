@@ -20,13 +20,12 @@ if (isset($_GET['success'])) {
                 <a href=''#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
                 Successfully added user!
                 </div>";
-    }else if($_GET['success'] == 3){
+    } else if ($_GET['success'] == 3) {
         echo "<div class='alert alert-danger' role='alert'>
                 <a href=''#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>          
                 User Deleted!
                 </div>";
-    }
-    else {
+    } else {
         echo "<div class='alert alert-danger' role='alert'>
                 <a href=''#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
                 Failed to add user!
@@ -42,12 +41,17 @@ if (isset($_GET['success'])) {
     </div>
     <div class="row my-2 justify-content-center">
         <div class="col-12 col-md-6 col-sm-12">
-            <form action="forms/user.php" method="post" >
+            <form action="forms/user.php" method="post">
                 <input type="text" class="form-control" name="firstName" placeholder="First Name"
-                       required="required" />
+                       required="required"/>
                 <br>
                 <input type="text" class="form-control" name="lastName" placeholder="Last Name"
-                       required="required" />
+                       required="required"/>
+                <br>
+                <input type="date" class="form-control" name="joinDate" placeholder="Join Date" required="required">
+                <br>
+                <input type="number" step="0.1" class="form-control" name="hourlyRate" placeholder="Hourly Rate"
+                       required="required">
                 <br>
                 <input class="btn btn-outline-primary form-control" name="submit" type="submit" value="Add User"/>
             </form>
@@ -65,6 +69,8 @@ if (isset($_GET['success'])) {
                     <th>ID</th>
                     <th>First Name</th>
                     <th>Last Name</th>
+                    <th>Join Date</th>
+                    <th>Hourly Rate</th>
                     <th>Action</th>
                 </tr>
                 </thead>
@@ -78,15 +84,18 @@ if (isset($_GET['success'])) {
 
                 if ($result->num_rows > 0) {
                     // output data of each row
-                    while($row = $result->fetch_assoc()) {
+                    while ($row = $result->fetch_assoc()) {
                         ?>
 
                         <tr>
                             <td><?php echo $row["id"] ?></td>
                             <td><?php echo $row["first_name"] ?></td>
                             <td><?php echo $row["last_name"] ?></td>
+                            <td><?php echo $row["join_date"] ?></td>
+                            <td><?php echo $row["hourly_rate"] ?></td>
                             <td>
-                                <a class="btn btn-danger btn-sm" href="forms/deleteUser.php?id=<?php echo $row['id'] ?>">Delete</a>
+                                <a class="btn btn-danger btn-sm"
+                                   href="forms/deleteUser.php?id=<?php echo $row['id'] ?>">Delete</a>
                             </td>
                         </tr>
                         <?php
@@ -100,6 +109,8 @@ if (isset($_GET['success'])) {
                     <th>ID</th>
                     <th>First Name</th>
                     <th>Last Name</th>
+                    <th>Join Date</th>
+                    <th>Hourly Rate</th>
                     <th>Action</th>
                 </tr>
                 </tfoot>
